@@ -14,8 +14,12 @@ website:
       - mitmachen.qmd
       - text: 'Arbeitsgruppen'
         menu:
-          - arbeitsgruppen/divestment.qmd
           - arbeitsgruppen/zero_emission_hospital.qmd
+          - arbeitsgruppen/nachhaltige_praxis.qmd
+          - arbeitsgruppen/divestment.qmd
+          - arbeitsgruppen/ernaehrung.qmd
+          - arbeitsgruppen/lehre.qmd
+          - arbeitsgruppen/hitzeschutz.qmd
       - links.qmd
       - icon: facebook
         # text: Facebook
