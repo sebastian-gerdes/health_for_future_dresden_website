@@ -10,4 +10,4 @@ Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:
 
 Wir freuen uns auf dich!
 
-![](images/image.png){width='100%'}
+![](images/onboarding.png){width='100%'}

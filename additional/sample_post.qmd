@@ -1,0 +1,11 @@
+---
+title: "Sample title"
+date: "2023-02-015"
+image: "images/logo.png"
+# author: Verfasser
+# categories:
+# - divestment
+# - news
+---
+
+Inhalte können hier ergänzt werden...

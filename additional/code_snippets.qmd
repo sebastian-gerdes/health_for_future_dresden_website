@@ -1,0 +1,20 @@
+---
+title: "Code Snippets"
+execute: 
+  eval: false
+---
+
+```{r}
+create_post <- function(post_title) {
+  ll <- readLines('additional/sample_post.qmd')
+  ll[2] <- paste('title: \"', post_title, "\"", sep = '')
+  ll[3] <- paste('date: \"', Sys.Date(), "\"", sep = '')
+  writeLines(ll, 
+             con = paste('posts/', Sys.Date(), '_',
+                         janitor::make_clean_names(post_title), 
+                         '.qmd', sep = ''))
+}
+
+create_post("Noch einer!")
+```
+

@@ -32,7 +32,7 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Herzlich willkommen auf der Seite von Health for Future Dresden!\nMehr Informationen über das Projekt findest Du hier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Herzlich willkommen auf der Seite von Health for Future Dresden!\nMehr Informationen über das Projekt findest Du hier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHier ist ein Vorschlag für eine neue Web-Site!\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "posts/2023_02_15-einladung-zum-onboarding/index.html",
@@ -88,7 +88,7 @@
     "href": "impressum.html#angaben-gemäß-5-telemediengesetz",
     "title": "Impressum",
     "section": "Angaben gemäß § 5 Telemediengesetz",
-    "text": "Angaben gemäß § 5 Telemediengesetz\n\nHealth for Future Dresden\nPostalische Kontaktmöglichkeit: Sebastian Gerdes, Talstraße 7, 01099 Dresden\nElektronische Kontaktmöglichkeit: dresden bei healthforfuture punkt de"
+    "text": "Angaben gemäß § 5 Telemediengesetz\n\nHealth for Future Dresden (freier Zusammenschluss von im Projekt Aktiven)\nPostalische Kontaktmöglichkeit: Sebastian Gerdes, Talstraße 7, 01099 Dresden\nElektronische Kontaktmöglichkeit: dresden bei healthforfuture punkt de"
   },
   {
     "objectID": "impressum.html#datenschutz",
@@ -110,5 +110,68 @@
     "title": "Einladung zum Onboarding",
     "section": "",
     "text": "Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:\n\nWann: 13.03.2023, 18 Uhr\nWo: Räumen der Fachschaft Medizin: Uniklinikum Dresden, Haus 17, 1. OG\n\nWir freuen uns auf dich!"
+  },
+  {
+    "objectID": "arbeitsgruppen/divestment.html",
+    "href": "arbeitsgruppen/divestment.html",
+    "title": "Divestment",
+    "section": "",
+    "text": "Inhalte können hier ergänzt werden…"
+  },
+  {
+    "objectID": "arbeitsgruppen/zero_emission_hospital.html",
+    "href": "arbeitsgruppen/zero_emission_hospital.html",
+    "title": "Zero Emission Hospital",
+    "section": "",
+    "text": "Inhalte können hier ergänzt werden…"
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "additional/code_snippets.html",
+    "href": "additional/code_snippets.html",
+    "title": "Code Snippets",
+    "section": "",
+    "text": "create_post <- function(post_title) {\n  ll <- readLines('additional/sample_post.qmd')\n  ll[2] <- paste('title: \\\"', post_title, \"\\\"\", sep = '')\n  ll[3] <- paste('date: \\\"', Sys.Date(), \"\\\"\", sep = '')\n  writeLines(ll, \n             con = paste('posts/', Sys.Date(), '_',\n                         janitor::make_clean_names(post_title), \n                         '.qmd', sep = ''))\n}\n\ncreate_post(\"Noch einer!\")"
+  },
+  {
+    "objectID": "additional/sample_post.html",
+    "href": "additional/sample_post.html",
+    "title": "Sample title",
+    "section": "",
+    "text": "Inhalte können hier ergänzt werden…"
+  },
+  {
+    "objectID": "posts/2023-03-04_this_is_the_title.html",
+    "href": "posts/2023-03-04_this_is_the_title.html",
+    "title": "This is the title!",
+    "section": "",
+    "text": "Inhalte können hier ergänzt werden…"
+  },
+  {
+    "objectID": "posts/2023-03-04_hier_ist_ein_vorschlag_fur_eine_neue_web_site.html",
+    "href": "posts/2023-03-04_hier_ist_ein_vorschlag_fur_eine_neue_web_site.html",
+    "title": "Hier ist ein Vorschlag für eine neue Web-Site!",
+    "section": "",
+    "text": "Inhalte können hier ergänzt werden…"
+  },
+  {
+    "objectID": "posts/2023-03-04_noch_einer.html",
+    "href": "posts/2023-03-04_noch_einer.html",
+    "title": "Noch einer!",
+    "section": "",
+    "text": "Inhalte können hier ergänzt werden…"
+  },
+  {
+    "objectID": "impressum.html#quellcode-der-webseite",
+    "href": "impressum.html#quellcode-der-webseite",
+    "title": "Impressum",
+    "section": "Quellcode der Webseite",
+    "text": "Quellcode der Webseite\n\nDer Quellcode der Webseite befindet sich hier in einem öffentlichen Repository bei GitHub. Bei Interesse, die Seite als Vorlage für andere Seiten zu verwernden, kontaktiere gern sebastian.gerdes bei posteo punkt de!"
   }
 ]

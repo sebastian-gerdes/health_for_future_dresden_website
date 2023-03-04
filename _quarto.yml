@@ -4,14 +4,18 @@ lang: de
 
 website:
   title: "Health for Future Dresden"
+  page-footer: "Website im Testbetrieb"
+  favicon: images/logo.png
+  twitter-card: true
+  site-url: https://h4f-dresden.netlify.app/
   navbar:
     right:
       - news.qmd
       - mitmachen.qmd
       - text: 'Arbeitsgruppen'
         menu:
-          - divestment.qmd
-          - file: zero_emission_hospital.qmd
+          - arbeitsgruppen/divestment.qmd
+          - arbeitsgruppen/zero_emission_hospital.qmd
       - impressum.qmd
       - icon: facebook
         # text: Facebook

@@ -1,0 +1,11 @@
+---
+title: "Hier ist ein Vorschlag für eine neue Web-Site!"
+date: "2023-03-04"
+image: "images/logo.png"
+# author: Verfasser
+# categories:
+# - divestment
+# - news
+---
+
+Inhalte können hier ergänzt werden...
