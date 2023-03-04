@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Über das Projekt",
-    "section": "",
-    "text": "Der Klimawandel ist eine Herausforderung für alle - auch und insbesondere für die Gesundheitsberufe.\nDeshalb haben wir diese Ortsgruppe gegründet.\nWir wollen:\n\nunser Wirken im Gesundheitswesen aktiv mit Klimaschutz verbinden\nsensibilisieren und uns vernetzen sowie unseren Nahbereich ändern\nüber die Zusammenhänge von Gesundheit und Klimawandel informieren\ndie politischen Ziele des Pariser Klimaabkommens einfordern\nund eigene Ziele formulieren und Debatten anstoßen\n\nWir freuen uns über jeden Menschen, der diese Ziele teilt und sich bei uns engagieren möchte. Meldet euch bei uns!"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Über das Projekt",
-    "section": "",
-    "text": "Herzlich Willkommen auf der WeChange-Seite von Health for Future Dresden!\nDer Klimawandel ist eine Herausforderung für alle - auch und insbesondere für die Gesundheitsberufe.\nDeshalb haben wir diese Ortsgruppe gegründet. Wir wollen * unser Wirken im Gesundheitswesen aktiv mit Klimaschutz verbinden * sensibilisieren und uns vernetzen sowie unseren Nahbereich ändern * über die Zusammenhänge von Gesundheit und Klimawandel informieren * die politischen Ziele des Pariser Klimaabkommens einfordern * und eigene Ziele formulieren und Debatten anstoßen\nWir freuen uns über jeden Menschen, der diese Ziele teilt und sich bei uns engagieren möchte. Meldet euch bei uns!"
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
-    "section": "",
-    "text": "Hier ist ein Vorschlag für eine neue Web-Site!\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\n\n\nKeine Treffer"
-  },
-  {
-    "objectID": "posts/2023_02_15-einladung-zum-onboarding/index.html",
-    "href": "posts/2023_02_15-einladung-zum-onboarding/index.html",
-    "title": "Einladung zum Onboarding",
-    "section": "",
-    "text": "Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:\n\nWann: 13.03.2023, 18 Uhr\nWo: Räumen der Fachschaft Medizin: Uniklinikum Dresden, Haus 17, 1. OG\n\nWir freuen uns auf dich!"
-  },
-  {
-    "objectID": "posts/2023_02_18-klimastreik/index.html",
-    "href": "posts/2023_02_18-klimastreik/index.html",
-    "title": "Klimastreik am 3. März!",
-    "section": "",
-    "text": "Am 3.3.2023 sind wir beim Klimastreik als Gesundheitsblock dabei!"
-  },
-  {
-    "objectID": "posts/2023_02_15-einladung-zum-onboarding/index.html#einladung-zum-onboarding-treffen",
-    "href": "posts/2023_02_15-einladung-zum-onboarding/index.html#einladung-zum-onboarding-treffen",
-    "title": "Einladung zum Onboarding",
-    "section": "Einladung zum Onboarding-Treffen",
-    "text": "Einladung zum Onboarding-Treffen\n\nWann: 13.03.2023, 18 Uhr\nWo: Räumen der Fachschaft Medizin: Uniklinikum Dresden, Haus 17, 1. OG\ngibt es für alle an einer Mitarbeit Interessierten ein Onboarding in den Räumen der Fachschaft Medizin: Uniklinikum Dresden, Haus 17, 1. OG. Wir freuen uns auf dich."
-  },
-  {
-    "objectID": "impressum.html",
-    "href": "impressum.html",
-    "title": "Impressum",
-    "section": "",
-    "text": "Dürfen wir ein Impressum wie z.B. Freiburg machen?"
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Über das Projekt",
-    "section": "News",
-    "text": "News"
-  },
-  {
     "objectID": "mitmachen.html",
     "href": "mitmachen.html",
     "title": "Mitmachen",
@@ -82,6 +12,55 @@
     "title": "Mitmachen",
     "section": "So könnt ihr uns erreichn",
     "text": "So könnt ihr uns erreichn\n\nper Mail an dresden at healthforfuture punkt de\nweitere Kontaktmöglichkeiten?"
+  },
+  {
+    "objectID": "posts/2023-03-04_hier_ist_ein_vorschlag_fur_eine_neue_web_site.html",
+    "href": "posts/2023-03-04_hier_ist_ein_vorschlag_fur_eine_neue_web_site.html",
+    "title": "Hier ist ein Vorschlag für eine neue Web-Site!",
+    "section": "",
+    "text": "Inhalte können hier ergänzt werden…"
+  },
+  {
+    "objectID": "posts/2023_02_15-einladung-zum-onboarding.html",
+    "href": "posts/2023_02_15-einladung-zum-onboarding.html",
+    "title": "Einladung zum Onboarding",
+    "section": "",
+    "text": "Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:\n\nWann: 13.03.2023, 18 Uhr\nWo: Räumen der Fachschaft Medizin: Uniklinikum Dresden, Haus 17, 1. OG\n\nWir freuen uns auf dich!"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Hier ist ein Vorschlag für eine neue Web-Site!\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Über das Projekt",
+    "section": "",
+    "text": "Der Klimawandel ist eine Herausforderung für alle - auch und insbesondere für die Gesundheitsberufe.\nDeshalb haben wir diese Ortsgruppe gegründet.\nWir wollen:\n\nunser Wirken im Gesundheitswesen aktiv mit Klimaschutz verbinden\nsensibilisieren und uns vernetzen sowie unseren Nahbereich ändern\nüber die Zusammenhänge von Gesundheit und Klimawandel informieren\ndie politischen Ziele des Pariser Klimaabkommens einfordern\nund eigene Ziele formulieren und Debatten anstoßen\n\nWir freuen uns über jeden Menschen, der diese Ziele teilt und sich bei uns engagieren möchte. Meldet euch bei uns!"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Über das Projekt",
+    "section": "News",
+    "text": "News"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Wer wir sind",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "impressum.html",
+    "href": "impressum.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "Dürfen wir ein Impressum wie z.B. Freiburg machen?"
   },
   {
     "objectID": "impressum.html#angaben-gemäß-5-telemediengesetz",
@@ -98,25 +77,25 @@
     "text": "Datenschutz\n\nAuf dieser Seite erfolgt kein Tracking und keine Werbung. Es werden keine Cookies gesetzt.\nDie Seite ist auf Netlify gehosted. Hier sind Informationen zum Datenschutz bei Netlify zu finden."
   },
   {
-    "objectID": "posts/test.html",
-    "href": "posts/test.html",
-    "title": "Test",
-    "section": "",
-    "text": "This is a test!"
+    "objectID": "impressum.html#quellcode-der-webseite",
+    "href": "impressum.html#quellcode-der-webseite",
+    "title": "Impressum",
+    "section": "Quellcode der Webseite",
+    "text": "Quellcode der Webseite\n\nDer Quellcode der Webseite befindet sich hier in einem öffentlichen Repository bei GitHub. Bei Interesse, die Seite als Vorlage für andere Seiten zu verwernden, kontaktiere gern sebastian.gerdes bei posteo punkt de!"
   },
   {
-    "objectID": "posts/2023_02_15-einladung-zum-onboarding.html",
-    "href": "posts/2023_02_15-einladung-zum-onboarding.html",
-    "title": "Einladung zum Onboarding",
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links",
     "section": "",
-    "text": "Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:\n\nWann: 13.03.2023, 18 Uhr\nWo: Räumen der Fachschaft Medizin: Uniklinikum Dresden, Haus 17, 1. OG\n\nWir freuen uns auf dich!"
+    "text": "Link"
   },
   {
-    "objectID": "arbeitsgruppen/divestment.html",
-    "href": "arbeitsgruppen/divestment.html",
-    "title": "Divestment",
-    "section": "",
-    "text": "Inhalte können hier ergänzt werden…"
+    "objectID": "links.html#health-for-future-deutschland",
+    "href": "links.html#health-for-future-deutschland",
+    "title": "Links",
+    "section": "Health for Future Deutschland",
+    "text": "Health for Future Deutschland\n\nLink"
   },
   {
     "objectID": "arbeitsgruppen/zero_emission_hospital.html",
@@ -126,11 +105,11 @@
     "text": "Inhalte können hier ergänzt werden…"
   },
   {
-    "objectID": "links.html",
-    "href": "links.html",
-    "title": "Links",
+    "objectID": "arbeitsgruppen/divestment.html",
+    "href": "arbeitsgruppen/divestment.html",
+    "title": "Divestment",
     "section": "",
-    "text": "Link"
+    "text": "Inhalte können hier ergänzt werden…"
   },
   {
     "objectID": "additional/code_snippets.html",
@@ -145,54 +124,5 @@
     "title": "Sample title",
     "section": "",
     "text": "Inhalte können hier ergänzt werden…"
-  },
-  {
-    "objectID": "posts/2023-03-04_this_is_the_title.html",
-    "href": "posts/2023-03-04_this_is_the_title.html",
-    "title": "This is the title!",
-    "section": "",
-    "text": "Inhalte können hier ergänzt werden…"
-  },
-  {
-    "objectID": "posts/2023-03-04_hier_ist_ein_vorschlag_fur_eine_neue_web_site.html",
-    "href": "posts/2023-03-04_hier_ist_ein_vorschlag_fur_eine_neue_web_site.html",
-    "title": "Hier ist ein Vorschlag für eine neue Web-Site!",
-    "section": "",
-    "text": "Inhalte können hier ergänzt werden…"
-  },
-  {
-    "objectID": "posts/2023-03-04_noch_einer.html",
-    "href": "posts/2023-03-04_noch_einer.html",
-    "title": "Noch einer!",
-    "section": "",
-    "text": "Inhalte können hier ergänzt werden…"
-  },
-  {
-    "objectID": "impressum.html#quellcode-der-webseite",
-    "href": "impressum.html#quellcode-der-webseite",
-    "title": "Impressum",
-    "section": "Quellcode der Webseite",
-    "text": "Quellcode der Webseite\n\nDer Quellcode der Webseite befindet sich hier in einem öffentlichen Repository bei GitHub. Bei Interesse, die Seite als Vorlage für andere Seiten zu verwernden, kontaktiere gern sebastian.gerdes bei posteo punkt de!"
-  },
-  {
-    "objectID": "links.html#parents-for-future-dresden",
-    "href": "links.html#parents-for-future-dresden",
-    "title": "Links",
-    "section": "Parents for Future Dresden",
-    "text": "Parents for Future Dresden\n\nLink"
-  },
-  {
-    "objectID": "links.html#dresden-zero",
-    "href": "links.html#dresden-zero",
-    "title": "Links",
-    "section": "Dresden Zero",
-    "text": "Dresden Zero\n\nInitiative Dresden bis zum Jahr 2035 klimaneutral zu machen\nLink"
-  },
-  {
-    "objectID": "links.html#health-for-future-deutschland",
-    "href": "links.html#health-for-future-deutschland",
-    "title": "Links",
-    "section": "Health for Future Deutschland",
-    "text": "Health for Future Deutschland\n\nLink"
   }
 ]
