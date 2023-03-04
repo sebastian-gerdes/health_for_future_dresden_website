@@ -4,17 +4,34 @@ execute:
   eval: false
 ---
 
+## Neuen Post erstellen
 ```{r}
 create_post <- function(post_title) {
   ll <- readLines('additional/sample_post.qmd')
   ll[2] <- paste('title: \"', post_title, "\"", sep = '')
   ll[3] <- paste('date: \"', Sys.Date(), "\"", sep = '')
-  writeLines(ll, 
-             con = paste('posts/', Sys.Date(), '_',
-                         janitor::make_clean_names(post_title), 
-                         '.qmd', sep = ''))
+  file_name <- paste0('posts/', Sys.Date(), '_',
+                     janitor::make_clean_names(post_title), 
+                     '.qmd')
+  writeLines(ll, con = file_name)
+  file.edit(file_name)
 }
-
-create_post("Noch einer!")
 ```
 
+```{r}
+create_post(post_title = 'Das ist ein Test')
+```
+
+## Seite neu zusammenstellen (=rendern)
+```{r}
+library('fs')
+backup_dir <- 'additional/backup/' 
+source_dir <- '_site/'
+dir_create(backup_dir)
+files_to_rescue <- paste0(source_dir, c('site_libs/')) #, '_site/.gitignore')
+file_move(files_to_rescue, backup_dir)
+file_delete('_site/')
+dir_create(source_dir)
+file_move(paste0(backup_dir, 'site_libs/'), source_dir)
+system('quarto render')
+```

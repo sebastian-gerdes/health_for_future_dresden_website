@@ -1,0 +1,11 @@
+---
+title: "To Do"
+---
+
+* Inhalte befüllen, insbesondere von den AG-Seiten
+* Link zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?
+* Evtl. noch Seite mit Terminen machen?
+* Impressum klären
+* Hauptdomain beziehen
+
+## [Anleitung zum Editieren der Webseite](anleitung.qmd)

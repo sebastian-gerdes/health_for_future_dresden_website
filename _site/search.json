@@ -28,11 +28,25 @@
     "text": "Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:\n\nWann: 13.03.2023, 18 Uhr\nWo: Räumen der Fachschaft Medizin: Uniklinikum Dresden, Haus 17, 1. OG\n\nWir freuen uns auf dich!"
   },
   {
+    "objectID": "posts/2023-03-04_das_ist_ein_test.html",
+    "href": "posts/2023-03-04_das_ist_ein_test.html",
+    "title": "Das ist ein Test",
+    "section": "",
+    "text": "Bullet points\nInhalte können hier ergänzt werden…"
+  },
+  {
+    "objectID": "posts/2023-03-04_das_ist_ein_test.html#einfügen-von-bildern",
+    "href": "posts/2023-03-04_das_ist_ein_test.html#einfügen-von-bildern",
+    "title": "Das ist ein Test",
+    "section": "Einfügen von Bildern",
+    "text": "Einfügen von Bildern\n\nBilder in den Ordner posts/images in entsprechendem Format (ca. 100kB, jpg oder png)\nDas geht so:\n\n(`klimastreik.png’ jeweils durch entsprechenden Dateinamen ersetzen)\nBreite über die Prozentzahl nach width regulieren"
+  },
+  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Hier ist ein Vorschlag für eine neue Web-Site!\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Hier ist ein Vorschlag für eine neue Web-Site!\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDas ist ein Test\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "index.html",
@@ -98,6 +112,13 @@
     "text": "Health for Future Deutschland\n\nLink"
   },
   {
+    "objectID": "links.html#deutsche-allianz-klimawandel-und-gesundheit",
+    "href": "links.html#deutsche-allianz-klimawandel-und-gesundheit",
+    "title": "Links",
+    "section": "Deutsche Allianz Klimawandel und Gesundheit",
+    "text": "Deutsche Allianz Klimawandel und Gesundheit\n\nLink"
+  },
+  {
     "objectID": "arbeitsgruppen/zero_emission_hospital.html",
     "href": "arbeitsgruppen/zero_emission_hospital.html",
     "title": "Zero Emission Hospital",
@@ -128,7 +149,7 @@
   {
     "objectID": "arbeitsgruppen/lehre.html",
     "href": "arbeitsgruppen/lehre.html",
-    "title": "Zero Emission Hospital",
+    "title": "Lehre",
     "section": "",
     "text": "Inhalte können hier ergänzt werden…"
   },
@@ -144,20 +165,83 @@
     "href": "additional/code_snippets.html",
     "title": "Code Snippets",
     "section": "",
-    "text": "create_post <- function(post_title) {\n  ll <- readLines('additional/sample_post.qmd')\n  ll[2] <- paste('title: \\\"', post_title, \"\\\"\", sep = '')\n  ll[3] <- paste('date: \\\"', Sys.Date(), \"\\\"\", sep = '')\n  writeLines(ll, \n             con = paste('posts/', Sys.Date(), '_',\n                         janitor::make_clean_names(post_title), \n                         '.qmd', sep = ''))\n}\n\ncreate_post(\"Noch einer!\")"
+    "text": "create_post <- function(post_title) {\n  ll <- readLines('additional/sample_post.qmd')\n  ll[2] <- paste('title: \\\"', post_title, \"\\\"\", sep = '')\n  ll[3] <- paste('date: \\\"', Sys.Date(), \"\\\"\", sep = '')\n  file_name <- paste0('posts/', Sys.Date(), '_',\n                     janitor::make_clean_names(post_title), \n                     '.qmd')\n  writeLines(ll, con = file_name)\n  file.edit(file_name)\n}\n\n\ncreate_post(post_title = 'Das ist ein Test')"
+  },
+  {
+    "objectID": "additional/code_snippets.html#seite-neu-zusammenstellen",
+    "href": "additional/code_snippets.html#seite-neu-zusammenstellen",
+    "title": "Code Snippets",
+    "section": "Seite neu zusammenstellen",
+    "text": "Seite neu zusammenstellen\n\ndir.create('additional/backup')\nfiles_to_rescue <- c('_site/site_libs', '_site/.gitignore')\nfile_move(files_to_rescue, 'rescue/')\nff <- list.files()"
+  },
+  {
+    "objectID": "additional/todo.html",
+    "href": "additional/todo.html",
+    "title": "To Do",
+    "section": "",
+    "text": "Inhalte befüllen, insbesondere von den AG-Seiten\nLink zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?\nEvtl. noch Seite mit Terminen machen?\nImpressum klären\nHauptdomain beziehen"
+  },
+  {
+    "objectID": "additional/todo.html#anleitung-zum-editieren-der-webseite",
+    "href": "additional/todo.html#anleitung-zum-editieren-der-webseite",
+    "title": "To Do",
+    "section": "Anleitung zum Editieren der Webseite",
+    "text": "Anleitung zum Editieren der Webseite"
   },
   {
     "objectID": "additional/sample_post.html",
     "href": "additional/sample_post.html",
     "title": "Sample title",
     "section": "",
-    "text": "Inhalte können hier ergänzt werden…"
+    "text": "Bullet points\nInhalte können hier ergänzt werden…"
   },
   {
-    "objectID": "links.html#deutsche-allianz-klimawandel-und-gesundheit",
-    "href": "links.html#deutsche-allianz-klimawandel-und-gesundheit",
-    "title": "Links",
-    "section": "Deutsche Allianz Klimawandel und Gesundheit",
-    "text": "Deutsche Allianz Klimawandel und Gesundheit\n\nLink"
+    "objectID": "additional/sample_post.html#einfügen-von-bildern",
+    "href": "additional/sample_post.html#einfügen-von-bildern",
+    "title": "Sample title",
+    "section": "Einfügen von Bildern",
+    "text": "Einfügen von Bildern\n\nBilder in den Ordner posts/images in entsprechendem Format (ca. 100kB, jpg oder png)\nDas geht so:\n\n(`klimastreik.png’ jeweils durch entsprechenden Dateinamen ersetzen)\nBreite über die Prozentzahl nach width regulieren"
+  },
+  {
+    "objectID": "additional/anleitung.html",
+    "href": "additional/anleitung.html",
+    "title": "Anleitung",
+    "section": "",
+    "text": "Benötigte Software (evtl. kann RStudio quarto und git gleich mitinstallieren)\n\nRStudio mit Paketen\nquarto\ngit\n\nGithub Zugang\nGithubzugang in RStudio einrichten\nProjekt erstellen"
+  },
+  {
+    "objectID": "additional/anleitung.html#zu-beachten",
+    "href": "additional/anleitung.html#zu-beachten",
+    "title": "Anleitung",
+    "section": "Zu beachten",
+    "text": "Zu beachten\n\nIn dem Repository keine Zugangsnamen und Passwörter speichen, da die Daten möglicherweise von außen gelesen werden können"
+  },
+  {
+    "objectID": "additional/anleitung.html#beim-start",
+    "href": "additional/anleitung.html#beim-start",
+    "title": "Anleitung",
+    "section": "Beim Start",
+    "text": "Beim Start\n\nLokales Verzeichnis aktualisieren (falls jemand anders etwas geändert hat) durch git pull"
+  },
+  {
+    "objectID": "additional/anleitung.html#neuen-post-erstellen",
+    "href": "additional/anleitung.html#neuen-post-erstellen",
+    "title": "Anleitung",
+    "section": "Neuen Post erstellen",
+    "text": "Neuen Post erstellen\n\nDatei code_snippets.qmd öffnen\ncreate_post(post_title = 'Das ist ein Test') ausführen\nDatei mit Starttext wird automatisch geöffnet"
+  },
+  {
+    "objectID": "additional/anleitung.html#seite-editieren",
+    "href": "additional/anleitung.html#seite-editieren",
+    "title": "Anleitung",
+    "section": "Seite editieren",
+    "text": "Seite editieren\n\nSeite für Datei öffnen\nSeite editieren, dabei nach Belieben Vorschau über die Schaltfläche ‘Render’ nutzen (oder auf Render on Save umstellen und dann speichern)\nWenn Post fertig ist:\n\nRegisterreiter Git öffnen\nHochzuladende Dateien auswählen\nCommit und Push"
+  },
+  {
+    "objectID": "additional/code_snippets.html#seite-neu-zusammenstellen-rendern",
+    "href": "additional/code_snippets.html#seite-neu-zusammenstellen-rendern",
+    "title": "Code Snippets",
+    "section": "Seite neu zusammenstellen (=rendern)",
+    "text": "Seite neu zusammenstellen (=rendern)\n\nlibrary('fs')\nbackup_dir <- 'additional/backup/' \nsource_dir <- '_site/'\ndir_create(backup_dir)\nfiles_to_rescue <- paste0(source_dir, c('site_libs/')) #, '_site/.gitignore')\nfile_move(files_to_rescue, backup_dir)\nfile_delete('_site/')\ndir_create(source_dir)\nfile_move(paste0(backup_dir, 'site_libs/'), source_dir)\nsystem('quarto render')"
   }
 ]

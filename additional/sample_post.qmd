@@ -8,4 +8,14 @@ image: "images/logo.png"
 # - news
 ---
 
-Inhalte können hier ergänzt werden...
+## Überschrift
+* Bullet points
+* Inhalte können hier ergänzt werden...
+
+## Einfügen von Bildern
+* Bilder in den Ordner `posts/images` in entsprechendem Format (ca. 100kB, jpg oder png)
+* Das geht so:
+  * (`klimastreik.png' jeweils durch entsprechenden Dateinamen ersetzen)
+  * Breite über die Prozentzahl nach `width` regulieren
+
+![](images/klimastreik.png){width='66%' fig-align='center'}

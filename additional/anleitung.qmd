@@ -1,0 +1,32 @@
+---
+title: "Anleitung"
+---
+
+## Installation
+* Benötigte Software (evtl. kann RStudio quarto und git gleich mitinstallieren)
+  - RStudio mit Paketen
+  - quarto
+  - git
+* Github Zugang
+* Githubzugang in RStudio einrichten
+* Projekt erstellen
+
+## Zu beachten
+* In dem Repository keine Zugangsnamen und Passwörter speichen, da die Daten möglicherweise von außen gelesen werden können
+
+## Beim Start 
+* Lokales Verzeichnis aktualisieren (falls jemand anders etwas geändert hat) durch `git pull`
+
+## Neuen Post erstellen
+* Datei `code_snippets.qmd` öffnen
+* `create_post(post_title = 'Das ist ein Test')` ausführen
+* Datei mit Starttext wird automatisch geöffnet
+
+## Seite editieren
+* Seite für Datei öffnen
+* Seite editieren, dabei nach Belieben Vorschau über die Schaltfläche 'Render' nutzen (oder auf `Render on Save` umstellen und dann speichern)
+* Wenn Post fertig ist:
+  * Registerreiter Git öffnen
+  * Hochzuladende Dateien auswählen
+  * Commit und Push
+
