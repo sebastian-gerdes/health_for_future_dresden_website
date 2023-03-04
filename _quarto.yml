@@ -1,31 +1,28 @@
 project:
   type: website
-  # site-url: https://pv-dd.netlify.app/
-  # description: "Dokumentation des Photovoltaik-Ausbaus in Dresden"
-  # favicon: pv_dd_logo.png
-
+lang: de
 
 website:
   title: "Health for Future Dresden"
   navbar:
-    left:
-      - about.qmd
-      - links.qmd
+    right:
+      - news.qmd
+      - mitmachen.qmd
+      - text: 'Arbeitsgruppen'
+        menu:
+          - divestment.qmd
+          - file: zero_emission_hospital.qmd
+      - impressum.qmd
       - icon: facebook
+        # text: Facebook
         href: https://www.facebook.com/healthforfuturedresden
       - icon: instagram
+        # text: Instagram
         href: https://www.instagram.com/healthforfuturedresden/
-      - icon: rss
-        href: index.xml
-  open-graph: true
-  cookie-consent: false
-  page-footer: "Aktuell ist diese Webseite im Entwurfsstadium und noch nicht im 'Aktivmodus'" 
-  page-navigation: true
-
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
-    strip-comments: true
-lang: de
+
+
+
