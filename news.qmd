@@ -11,7 +11,3 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-
-Herzlich willkommen auf der Seite von Health for Future Dresden!
-
-Mehr Informationen über das Projekt findest Du [hier](about.qmd)
