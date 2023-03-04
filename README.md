@@ -1,5 +1,5 @@
 # Website for "Health for Future Dresden"
-This is the github repository for the [quarto]()-based website of the Health for Future Group Dresden, a group belonging to the [Friday for Future](https://en.wikipedia.org/wiki/School_Strike_for_Climate) movement.
+This is the github repository for the [quarto](https://quarto.org/)-based website of the Health for Future Group Dresden, a group belonging to the [Friday for Future](https://en.wikipedia.org/wiki/School_Strike_for_Climate) movement.
 
 Currently, the website is still under construction.
 
