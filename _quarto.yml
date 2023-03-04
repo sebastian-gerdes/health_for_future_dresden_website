@@ -4,7 +4,7 @@ lang: de
 
 website:
   title: "Health for Future Dresden"
-  page-footer: "Website im Testbetrieb"
+  page-footer: "[Impressum](impressum.qmd) <br> Website im Testbetrieb "
   favicon: images/logo.png
   twitter-card: true
   site-url: https://h4f-dresden.netlify.app/
@@ -16,7 +16,7 @@ website:
         menu:
           - arbeitsgruppen/divestment.qmd
           - arbeitsgruppen/zero_emission_hospital.qmd
-      - impressum.qmd
+      - links.qmd
       - icon: facebook
         # text: Facebook
         href: https://www.facebook.com/healthforfuturedresden

@@ -2,4 +2,9 @@
 title: "Links"
 ---
 
-About this blog
+## Fridays For Future Dresden
+* [Link](https://fffdd.de/)
+
+## Health for Future Deutschland
+* [Link](https://healthforfuture.de/)
+
