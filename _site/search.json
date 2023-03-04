@@ -28,25 +28,11 @@
     "text": "Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:\n\nWann: 13.03.2023, 18 Uhr\nWo: Räumen der Fachschaft Medizin: Uniklinikum Dresden, Haus 17, 1. OG\n\nWir freuen uns auf dich!"
   },
   {
-    "objectID": "posts/2023-03-04_das_ist_ein_test.html",
-    "href": "posts/2023-03-04_das_ist_ein_test.html",
-    "title": "Das ist ein Test",
-    "section": "",
-    "text": "Bullet points\nInhalte können hier ergänzt werden…"
-  },
-  {
-    "objectID": "posts/2023-03-04_das_ist_ein_test.html#einfügen-von-bildern",
-    "href": "posts/2023-03-04_das_ist_ein_test.html#einfügen-von-bildern",
-    "title": "Das ist ein Test",
-    "section": "Einfügen von Bildern",
-    "text": "Einfügen von Bildern\n\nBilder in den Ordner posts/images in entsprechendem Format (ca. 100kB, jpg oder png)\nDas geht so:\n\n(`klimastreik.png’ jeweils durch entsprechenden Dateinamen ersetzen)\nBreite über die Prozentzahl nach width regulieren"
-  },
-  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Hier ist ein Vorschlag für eine neue Web-Site!\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDas ist ein Test\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Hier ist ein Vorschlag für eine neue Web-Site!\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "index.html",
@@ -168,11 +154,11 @@
     "text": "create_post <- function(post_title) {\n  ll <- readLines('additional/sample_post.qmd')\n  ll[2] <- paste('title: \\\"', post_title, \"\\\"\", sep = '')\n  ll[3] <- paste('date: \\\"', Sys.Date(), \"\\\"\", sep = '')\n  file_name <- paste0('posts/', Sys.Date(), '_',\n                     janitor::make_clean_names(post_title), \n                     '.qmd')\n  writeLines(ll, con = file_name)\n  file.edit(file_name)\n}\n\n\ncreate_post(post_title = 'Das ist ein Test')"
   },
   {
-    "objectID": "additional/code_snippets.html#seite-neu-zusammenstellen",
-    "href": "additional/code_snippets.html#seite-neu-zusammenstellen",
+    "objectID": "additional/code_snippets.html#seite-neu-zusammenstellen-rendern",
+    "href": "additional/code_snippets.html#seite-neu-zusammenstellen-rendern",
     "title": "Code Snippets",
-    "section": "Seite neu zusammenstellen",
-    "text": "Seite neu zusammenstellen\n\ndir.create('additional/backup')\nfiles_to_rescue <- c('_site/site_libs', '_site/.gitignore')\nfile_move(files_to_rescue, 'rescue/')\nff <- list.files()"
+    "section": "Seite neu zusammenstellen (=rendern)",
+    "text": "Seite neu zusammenstellen (=rendern)\n\nlibrary('fs')\nbackup_dir <- 'additional/backup/' \nsource_dir <- '_site/'\ndir_create(backup_dir)\nfiles_to_rescue <- paste0(source_dir, c('site_libs/')) #, '_site/.gitignore')\nfile_move(files_to_rescue, backup_dir)\nfile_delete('_site/')\ndir_create(source_dir)\nfile_move(paste0(backup_dir, 'site_libs/'), source_dir)\nsystem('quarto render')"
   },
   {
     "objectID": "additional/todo.html",
@@ -236,12 +222,5 @@
     "title": "Anleitung",
     "section": "Seite editieren",
     "text": "Seite editieren\n\nSeite für Datei öffnen\nSeite editieren, dabei nach Belieben Vorschau über die Schaltfläche ‘Render’ nutzen (oder auf Render on Save umstellen und dann speichern)\nWenn Post fertig ist:\n\nRegisterreiter Git öffnen\nHochzuladende Dateien auswählen\nCommit und Push"
-  },
-  {
-    "objectID": "additional/code_snippets.html#seite-neu-zusammenstellen-rendern",
-    "href": "additional/code_snippets.html#seite-neu-zusammenstellen-rendern",
-    "title": "Code Snippets",
-    "section": "Seite neu zusammenstellen (=rendern)",
-    "text": "Seite neu zusammenstellen (=rendern)\n\nlibrary('fs')\nbackup_dir <- 'additional/backup/' \nsource_dir <- '_site/'\ndir_create(backup_dir)\nfiles_to_rescue <- paste0(source_dir, c('site_libs/')) #, '_site/.gitignore')\nfile_move(files_to_rescue, backup_dir)\nfile_delete('_site/')\ndir_create(source_dir)\nfile_move(paste0(backup_dir, 'site_libs/'), source_dir)\nsystem('quarto render')"
   }
 ]
