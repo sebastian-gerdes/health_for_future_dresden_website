@@ -7,5 +7,6 @@ title: "To Do"
 * Evtl. noch Seite mit Terminen machen?
 * Impressum klären
 * Hauptdomain beziehen
+* Wenn die Seite freigegeben wird, den Ordner `additional` wieder aus dem öffentlichen Bereich nehmen
 
 ## [Anleitung zum Editieren der Webseite](anleitung.qmd)
