@@ -259,7 +259,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">file_delete</span>(<span class="st">'_site/'</span>)</span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">dir_create</span>(source_dir)</span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="fu">file_move</span>(<span class="fu">paste0</span>(backup_dir, <span class="st">'site_libs/'</span>), source_dir)</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">system</span>(<span class="st">'quarto render'</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">file_delete</span>(backup_dir)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">system</span>(<span class="st">'quarto render'</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
@@ -402,7 +403,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center"><a href="impressum.qmd">Impressum</a> <br> Website im Testbetrieb - <a href="additional/todo.qmd">To Do</a></div>
+      <div class="nav-footer-center"><a href="../impressum.html">Impressum</a> <br> Website im Testbetrieb - <a href="../additional/todo.html">To Do</a></div>
   </div>
 </footer>
 

@@ -33,5 +33,6 @@ file_move(files_to_rescue, backup_dir)
 file_delete('_site/')
 dir_create(source_dir)
 file_move(paste0(backup_dir, 'site_libs/'), source_dir)
+file_delete(backup_dir)
 system('quarto render')
 ```

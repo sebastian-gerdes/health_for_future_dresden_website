@@ -4,7 +4,8 @@ image: images/banner.jpg
 listing:
   contents: posts
   sort: "date desc"
-  type: grid
+  # type: grid
+  type: default
   categories: false
   sort-ui: false
   filter-ui: false

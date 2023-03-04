@@ -12,10 +12,10 @@ title: "Anleitung"
 * Projekt erstellen
 
 ## Zu beachten
-* In dem Repository keine Zugangsnamen und Passwörter speichen, da die Daten möglicherweise von außen gelesen werden können
+* Keine Zugangsnamen und Passwörter im Text speichen, da die Daten möglicherweise von außen gelesen werden können
 
 ## Beim Start 
-* Lokales Verzeichnis aktualisieren (falls jemand anders etwas geändert hat) durch `git pull`
+* Falls jemand anderes in der Zwischenzeit etwas an der Webseite geändert hat diese Änderungen in die eigene lokale Kopie integrieren:  `git pull` auf der Konsole eingeben oder im entsprechenden Menü klicken
 
 ## Neuen Post erstellen
 * Datei `code_snippets.qmd` öffnen

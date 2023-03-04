@@ -32,7 +32,7 @@
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Hier ist ein Vorschlag für eine neue Web-Site!\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Hier ist ein Vorschlag für eine neue Web-Site!\n\n\n\n\n\n\n\n\n\n\n\n\n04.03.2023\n\n\n\n\n\n\n  \n\n\n\n\nKlimastreik am 3. März!\n\n\n\n\n\n\n\n\n\n\n\n\n18.02.2023\n\n\n\n\n\n\n  \n\n\n\n\nEinladung zum Onboarding\n\n\n\n\n\n\n\n\n\n\n\n\n15.02.2023\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "index.html",
@@ -158,7 +158,7 @@
     "href": "additional/code_snippets.html#seite-neu-zusammenstellen-rendern",
     "title": "Code Snippets",
     "section": "Seite neu zusammenstellen (=rendern)",
-    "text": "Seite neu zusammenstellen (=rendern)\n\nlibrary('fs')\nbackup_dir <- 'additional/backup/' \nsource_dir <- '_site/'\ndir_create(backup_dir)\nfiles_to_rescue <- paste0(source_dir, c('site_libs/')) #, '_site/.gitignore')\nfile_move(files_to_rescue, backup_dir)\nfile_delete('_site/')\ndir_create(source_dir)\nfile_move(paste0(backup_dir, 'site_libs/'), source_dir)\nsystem('quarto render')"
+    "text": "Seite neu zusammenstellen (=rendern)\n\nlibrary('fs')\nbackup_dir <- 'additional/backup/' \nsource_dir <- '_site/'\ndir_create(backup_dir)\nfiles_to_rescue <- paste0(source_dir, c('site_libs/')) #, '_site/.gitignore')\nfile_move(files_to_rescue, backup_dir)\nfile_delete('_site/')\ndir_create(source_dir)\nfile_move(paste0(backup_dir, 'site_libs/'), source_dir)\nfile_delete(backup_dir)\nsystem('quarto render')"
   },
   {
     "objectID": "additional/todo.html",
@@ -200,14 +200,14 @@
     "href": "additional/anleitung.html#zu-beachten",
     "title": "Anleitung",
     "section": "Zu beachten",
-    "text": "Zu beachten\n\nIn dem Repository keine Zugangsnamen und Passwörter speichen, da die Daten möglicherweise von außen gelesen werden können"
+    "text": "Zu beachten\n\nKeine Zugangsnamen und Passwörter im Text speichen, da die Daten möglicherweise von außen gelesen werden können"
   },
   {
     "objectID": "additional/anleitung.html#beim-start",
     "href": "additional/anleitung.html#beim-start",
     "title": "Anleitung",
     "section": "Beim Start",
-    "text": "Beim Start\n\nLokales Verzeichnis aktualisieren (falls jemand anders etwas geändert hat) durch git pull"
+    "text": "Beim Start\n\nFalls jemand anderes in der Zwischenzeit etwas an der Webseite geändert hat diese Änderungen in die eigene lokale Kopie integrieren: git pull auf der Konsole eingeben oder im entsprechenden Menü klicken"
   },
   {
     "objectID": "additional/anleitung.html#neuen-post-erstellen",

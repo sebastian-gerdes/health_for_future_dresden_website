@@ -5,4 +5,3 @@ date: "2023-02-18"
 ## Am 3.3.2023 sind wir beim Klimastreik als Gesundheitsblock dabei!
 
 ![](images/klimastreik.png){width='66%' fig-align='center'}
-
