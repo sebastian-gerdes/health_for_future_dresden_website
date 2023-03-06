@@ -2,11 +2,35 @@
 title: "Links"
 ---
 
-## Fridays For Future Dresden
-* [Link](https://fffdd.de/)
+::: columns
+::: {.column width="30%"}
+![](images/links_logos/fff_dresden.webp){width='66%' fig-align='center'}
+:::
+::: {.column width="70%"}
+### [Fridays for Future Dresden](https://fffdd.de/)
+:::
+:::
 
-## Health for Future Deutschland
-* [Link](https://healthforfuture.de/)
+-------------
 
-## Deutsche Allianz Klimawandel und Gesundheit
-* [Link](https://www.klimawandel-gesundheit.de/)
+::: columns
+::: {.column width="30%"}
+![](images/links_logos/h4f-logo.png){width='66%' fig-align='center'}
+:::
+::: {.column width="70%"}
+### [Health for Future Deutschland](https://healthforfuture.de/)
+:::
+:::
+
+-------------
+
+::: columns
+::: {.column width="30%"}
+![](images/links_logos/KLUG_Logo-150.png){width='66%' fig-align='center'}
+:::
+::: {.column width="70%"}
+### [Deutsche Allianz Klimawandel und Gesundheit](https://www.klimawandel-gesundheit.de/)
+:::
+:::
+
+

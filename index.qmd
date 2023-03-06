@@ -25,23 +25,6 @@ title-block-banner: true
 
 ## Herzlich Willkommen auf der Seite von Health for Future Dresden!
 
-----------
-
-::: columns
-::: {.column width="30%"}
-![](images/logo.png)
-:::
-::: {.column width="70%"}
-Das ist ein Test, wie gut das funktioniert! Und jetzt hier noch mehr Text
-
-Und eine neue Zeile. Mehr Text.
-
-Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text. Und noch ein langer Text.
-:::
-:::
-----------
-
-
 Der Klimawandel ist eine Herausforderung für alle - auch und insbesondere für die Gesundheitsberufe.
 
 Deshalb haben wir diese Ortsgruppe gegründet.
