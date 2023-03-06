@@ -1,5 +1,6 @@
 ---
 title: "Anleitung"
+toc: true
 ---
 
 ## Installation
@@ -29,4 +30,25 @@ title: "Anleitung"
   * Registerreiter Git öffnen
   * Hochzuladende Dateien auswählen
   * Commit und Push
+  
+## Einbetten von Fotos
+* Hochladen
+* zum Beispiel über
+  * [flickr](https://www.flickr.com/) - kein Beispiel
+  * [albumizr](https://albumizr.com/) - Fotos hochladen und dann den angebotenen Text in die Datei einfügen. Beispiel:
+``` {.default shortcodes="false"}
+  <iframe loading="lazy" src="https://albumizr.com/a/nzJb" scrolling="no" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
+```
+Das sieht dann so aus:
+  <iframe loading="lazy" src="https://albumizr.com/a/nzJb" scrolling="no" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
+
+## Einbetten von Videos
+* geht so:
+
+``` {.default shortcodes="false"}
+{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+```
+... und sieht dann so aus:
+{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+
 

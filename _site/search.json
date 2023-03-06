@@ -102,7 +102,7 @@
     "href": "arbeitsgruppen/nachhaltige_praxis.html",
     "title": "Nachhaltige Praxis",
     "section": "",
-    "text": "Inhalte können hier ergänzt werden…"
+    "text": "Inhalte können hier ergänzt werden…\n… und vielleicht von hier übernommen und angepasst werden?"
   },
   {
     "objectID": "arbeitsgruppen/ernaehrung.html",
@@ -144,14 +144,14 @@
     "href": "additional/code_snippets.html#seite-neu-zusammenstellen-rendern",
     "title": "Code Snippets",
     "section": "Seite neu zusammenstellen (=rendern)",
-    "text": "Seite neu zusammenstellen (=rendern)\n\nlibrary('fs')\nbackup_dir <- 'additional/backup/' \nsource_dir <- '_site/'\ndir_create(backup_dir)\nfiles_to_rescue <- paste0(source_dir, c('site_libs/')) #, '_site/.gitignore')\nfile_move(files_to_rescue, backup_dir)\nfile_delete('_site/')\ndir_create(source_dir)\nfile_move(paste0(backup_dir, 'site_libs/'), source_dir)\nfile_delete(backup_dir)\nsystem('quarto render')"
+    "text": "Seite neu zusammenstellen (=rendern)\n\nlibrary('fs')\nbackup_dir <- 'additional/backup/' \nsource_dir <- '_site/'\ndir_create(backup_dir)\nfiles_to_rescue <- paste0(source_dir, c('site_libs/')) #, '_site/.gitignore')\nfile_move(files_to_rescue, backup_dir)\nfile_delete('_site/')\ndir_create(source_dir)\nfile_move(paste0(backup_dir, 'site_libs/'), source_dir)\nfile_delete(backup_dir)\nsystem('quarto render')\n\n\nlibrary('magick')\nlibrary('fs')\n\nchange_image_dimensions <- Vectorize(\n  function(file_name_in, new_pixel_width = 200) {\n    file_name_out <- paste0(path_ext_remove(file_name_in), '_small.png')\n    my_image <- image_read(file_name_in)\n    my_image_small <- \n      image_resize(my_image, \n                   geometry = geometry_size_pixels(width = new_pixel_width))\n    image_write(my_image_small, path = file_name_out)\n    return(my_image_small)\n  })\n\nfiles <- c('images/links_logos/KLUG_Logo-150.png', \n           'images/links_logos/fff_dresden.webp', \n           'images/links_logos/h4f-logo.png')\n\nchange_image_dimensions(files)"
   },
   {
     "objectID": "additional/todo.html",
     "href": "additional/todo.html",
     "title": "To Do",
     "section": "",
-    "text": "Inhalte befüllen, insbesondere von den AG-Seiten\nLink zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?\nEvtl. noch Seite mit Terminen machen?\nImpressum klären\nHauptdomain beziehen\nWenn die Seite freigegeben wird, den Ordner additional wieder aus dem öffentlichen Bereich nehmen"
+    "text": "Inhalte befüllen, insbesondere von den AG-Seiten\nLink zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?\nEvtl. noch Seite mit Terminen machen?\nImpressum klären\nHauptdomain beziehen\nWenn die Seite freigegeben wird, den Ordner additional wieder aus dem öffentlichen Bereich nehmen, sodass unter Anderem diese Seite und die Anleitung nicht mehr zu erreichen ist"
   },
   {
     "objectID": "additional/todo.html#anleitung-zum-editieren-der-webseite",
@@ -208,5 +208,19 @@
     "title": "Anleitung",
     "section": "Seite editieren",
     "text": "Seite editieren\n\nSeite für Datei öffnen\nSeite editieren, dabei nach Belieben Vorschau über die Schaltfläche ‘Render’ nutzen (oder auf Render on Save umstellen und dann speichern)\nWenn Post fertig ist:\n\nRegisterreiter Git öffnen\nHochzuladende Dateien auswählen\nCommit und Push"
+  },
+  {
+    "objectID": "additional/anleitung.html#einbetten-von-fotos",
+    "href": "additional/anleitung.html#einbetten-von-fotos",
+    "title": "Anleitung",
+    "section": "Einbetten von Fotos",
+    "text": "Einbetten von Fotos\n\nHochladen\nzum Beispiel über\n\nflickr - kein Beispiel\nalbumizr - Fotos hochladen und dann den angebotenen Text in die Datei einfügen. Beispiel:\n\n<iframe loading=\"lazy\" src=\"https://albumizr.com/a/nzJb\" scrolling=\"no\" allowfullscreen=\"\" width=\"700\" height=\"400\" frameborder=\"0\"></iframe>\nDas sieht dann so aus:"
+  },
+  {
+    "objectID": "additional/anleitung.html#einbetten-von-videos",
+    "href": "additional/anleitung.html#einbetten-von-videos",
+    "title": "Anleitung",
+    "section": "Einbetten von Videos",
+    "text": "Einbetten von Videos\n\ngeht so:\n\n{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}\n… und sieht dann so aus:"
   }
 ]
