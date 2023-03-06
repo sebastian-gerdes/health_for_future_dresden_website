@@ -36,3 +36,26 @@ file_move(paste0(backup_dir, 'site_libs/'), source_dir)
 file_delete(backup_dir)
 system('quarto render')
 ```
+
+```{r}
+library('magick')
+library('fs')
+
+change_image_dimensions <- Vectorize(
+  function(file_name_in, new_pixel_width = 200) {
+    file_name_out <- paste0(path_ext_remove(file_name_in), '_small.png')
+    my_image <- image_read(file_name_in)
+    my_image_small <- 
+      image_resize(my_image, 
+                   geometry = geometry_size_pixels(width = new_pixel_width))
+    image_write(my_image_small, path = file_name_out)
+    return(my_image_small)
+  })
+
+files <- c('images/links_logos/KLUG_Logo-150.png', 
+           'images/links_logos/fff_dresden.webp', 
+           'images/links_logos/h4f-logo.png')
+
+change_image_dimensions(files)
+
+```

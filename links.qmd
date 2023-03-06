@@ -4,7 +4,7 @@ title: "Links"
 
 ::: columns
 ::: {.column width="30%"}
-![](images/links_logos/fff_dresden.webp){width='66%' fig-align='center'}
+![](images/links_logos/fff_dresden_small.png){width='66%' fig-align='center'}
 :::
 ::: {.column width="70%"}
 ### [Fridays for Future Dresden](https://fffdd.de/)
@@ -15,7 +15,7 @@ title: "Links"
 
 ::: columns
 ::: {.column width="30%"}
-![](images/links_logos/h4f-logo.png){width='66%' fig-align='center'}
+![](images/links_logos/h4f-logo_small.png){width='66%' fig-align='center'}
 :::
 ::: {.column width="70%"}
 ### [Health for Future Deutschland](https://healthforfuture.de/)
@@ -26,7 +26,7 @@ title: "Links"
 
 ::: columns
 ::: {.column width="30%"}
-![](images/links_logos/KLUG_Logo-150.png){width='66%' fig-align='center'}
+![](images/links_logos/KLUG_Logo-150_small.png){width='66%' fig-align='center'}
 :::
 ::: {.column width="70%"}
 ### [Deutsche Allianz Klimawandel und Gesundheit](https://www.klimawandel-gesundheit.de/)
