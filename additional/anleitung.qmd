@@ -36,11 +36,12 @@ toc: true
 * zum Beispiel über
   * [flickr](https://www.flickr.com/) - kein Beispiel
   * [albumizr](https://albumizr.com/) - Fotos hochladen und dann den angebotenen Text in die Datei einfügen. Beispiel:
-``` {.default shortcodes="false"}
-  <iframe loading="lazy" src="https://albumizr.com/a/nzJb" scrolling="no" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
+  
+```
+<iframe loading="lazy" src="https://albumizr.com/a/nzJb" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
 ```
 Das sieht dann so aus:
-  <iframe loading="lazy" src="https://albumizr.com/a/nzJb" scrolling="no" allowfullscreen="" width="700" height="400" frameborder="0"></iframe>
+<iframe loading="lazy" src="https://albumizr.com/a/nzJb" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
 
 ## Einbetten von Videos
 * geht so:
