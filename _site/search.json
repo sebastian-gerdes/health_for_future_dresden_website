@@ -214,7 +214,7 @@
     "href": "additional/anleitung.html#einbetten-von-fotos",
     "title": "Anleitung",
     "section": "Einbetten von Fotos",
-    "text": "Einbetten von Fotos\n\nHochladen\nzum Beispiel über\n\nflickr - kein Beispiel\nalbumizr - Fotos hochladen und dann den angebotenen Text in die Datei einfügen. Beispiel:\n\n\n<iframe loading=\"lazy\" src=\"https://albumizr.com/a/nzJb\" scrolling=\"no\" frameborder=\"0\" allowfullscreen width=\"700\" height=\"400\"></iframe>\nDas sieht dann so aus:"
+    "text": "Einbetten von Fotos\n\nHochladen\nzum Beispiel über\n\nflickr - kein Beispiel\nalbumizr - Fotos hochladen und dann den angebotenen Text in die Datei einfügen. Beispiel:\n\n\n<iframe loading=\"lazy\" src=\"https://albumizr.com/a/nzJb\" scrolling=\"no\" frameborder=\"0\" allowfullscreen width=\"100%\" height=\"400\"></iframe>\nDas sieht dann so aus:"
   },
   {
     "objectID": "additional/anleitung.html#einbetten-von-videos",
