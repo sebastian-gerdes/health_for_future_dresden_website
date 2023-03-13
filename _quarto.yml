@@ -6,8 +6,7 @@ website:
   title: "Health for Future Dresden"
   # title: "![](images/logo.png) "
   cookie-consent: false
-  page-footer: "[Impressum](/impressum.qmd) <br> Website im Testbetrieb - [To Do](/additional/todo.qmd)"
-  # margin-header: "![](images/logo.png)"
+  page-footer: "[Impressum](/impressum.qmd)"
   favicon: images/logo.png
   twitter-card: true
   open-graph: true
@@ -37,4 +36,4 @@ format:
     css: styles.css
 
 
-
+# title-block-banner: images/banner.jpg

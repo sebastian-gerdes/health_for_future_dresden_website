@@ -147,20 +147,6 @@
     "text": "Seite neu zusammenstellen (=rendern)\n\nlibrary('fs')\nbackup_dir <- 'additional/backup/' \nsource_dir <- '_site/'\ndir_create(backup_dir)\nfiles_to_rescue <- paste0(source_dir, c('site_libs/')) #, '_site/.gitignore')\nfile_move(files_to_rescue, backup_dir)\nfile_delete('_site/')\ndir_create(source_dir)\nfile_move(paste0(backup_dir, 'site_libs/'), source_dir)\nfile_delete(backup_dir)\nsystem('quarto render')\n\n\nlibrary('magick')\nlibrary('fs')\n\nchange_image_dimensions <- Vectorize(\n  function(file_name_in, new_pixel_width = 200) {\n    file_name_out <- paste0(path_ext_remove(file_name_in), '_small.png')\n    my_image <- image_read(file_name_in)\n    my_image_small <- \n      image_resize(my_image, \n                   geometry = geometry_size_pixels(width = new_pixel_width))\n    image_write(my_image_small, path = file_name_out)\n    return(my_image_small)\n  })\n\nfiles <- c('images/links_logos/KLUG_Logo-150.png', \n           'images/links_logos/fff_dresden.webp', \n           'images/links_logos/h4f-logo.png')\n\nchange_image_dimensions(files)"
   },
   {
-    "objectID": "additional/todo.html",
-    "href": "additional/todo.html",
-    "title": "To Do",
-    "section": "",
-    "text": "Inhalte befüllen, insbesondere von den AG-Seiten\nLink zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?\nEvtl. noch Seite mit Terminen machen?\nImpressum klären\nHauptdomain beziehen\nWenn die Seite freigegeben wird, den Ordner additional wieder aus dem öffentlichen Bereich nehmen, sodass unter Anderem diese Seite und die Anleitung nicht mehr zu erreichen ist"
-  },
-  {
-    "objectID": "additional/todo.html#anleitung-zum-editieren-der-webseite",
-    "href": "additional/todo.html#anleitung-zum-editieren-der-webseite",
-    "title": "To Do",
-    "section": "Anleitung zum Editieren der Webseite",
-    "text": "Anleitung zum Editieren der Webseite"
-  },
-  {
     "objectID": "additional/sample_post.html",
     "href": "additional/sample_post.html",
     "title": "Sample title",
@@ -173,61 +159,5 @@
     "title": "Sample title",
     "section": "Einfügen von Bildern",
     "text": "Einfügen von Bildern\n\nBilder in den Ordner posts/images in entsprechendem Format (ca. 100kB, jpg oder png)\nDas geht so:\n\n(`klimastreik.png’ jeweils durch entsprechenden Dateinamen ersetzen)\nBreite über die Prozentzahl nach width regulieren"
-  },
-  {
-    "objectID": "additional/anleitung.html",
-    "href": "additional/anleitung.html",
-    "title": "Anleitung",
-    "section": "",
-    "text": "Benötigte Software (evtl. kann RStudio quarto und git gleich mitinstallieren)\n\nRStudio mit Paketen\nquarto\ngit\n\nGithub Zugang\nGithubzugang in RStudio einrichten\nProjekt erstellen"
-  },
-  {
-    "objectID": "additional/anleitung.html#zu-beachten",
-    "href": "additional/anleitung.html#zu-beachten",
-    "title": "Anleitung",
-    "section": "Zu beachten",
-    "text": "Zu beachten\n\nKeine Zugangsnamen und Passwörter im Text speichen, da die Daten möglicherweise von außen gelesen werden können"
-  },
-  {
-    "objectID": "additional/anleitung.html#beim-start",
-    "href": "additional/anleitung.html#beim-start",
-    "title": "Anleitung",
-    "section": "Beim Start",
-    "text": "Beim Start\n\nFalls jemand anderes in der Zwischenzeit etwas an der Webseite geändert hat diese Änderungen in die eigene lokale Kopie integrieren: git pull auf der Konsole eingeben oder im entsprechenden Menü klicken"
-  },
-  {
-    "objectID": "additional/anleitung.html#neuen-post-erstellen",
-    "href": "additional/anleitung.html#neuen-post-erstellen",
-    "title": "Anleitung",
-    "section": "Neuen Post erstellen",
-    "text": "Neuen Post erstellen\n\nDatei code_snippets.qmd öffnen\ncreate_post(post_title = 'Das ist ein Test') ausführen\nDatei mit Starttext wird automatisch geöffnet"
-  },
-  {
-    "objectID": "additional/anleitung.html#seite-editieren",
-    "href": "additional/anleitung.html#seite-editieren",
-    "title": "Anleitung",
-    "section": "Seite editieren",
-    "text": "Seite editieren\n\nSeite für Datei öffnen\nSeite editieren, dabei nach Belieben Vorschau über die Schaltfläche ‘Render’ nutzen (oder auf Render on Save umstellen und dann speichern)\nWenn Post fertig ist:\n\nRegisterreiter Git öffnen\nHochzuladende Dateien auswählen\nCommit und Push"
-  },
-  {
-    "objectID": "additional/anleitung.html#einbetten-von-fotos",
-    "href": "additional/anleitung.html#einbetten-von-fotos",
-    "title": "Anleitung",
-    "section": "Einbetten von Fotos",
-    "text": "Einbetten von Fotos\nGeht so:\n![](../images/banner.jpg){width='66%' fig-align='center'}\nSieht dann so aus:"
-  },
-  {
-    "objectID": "additional/anleitung.html#einbetten-von-fotos-über-externen-anbieter",
-    "href": "additional/anleitung.html#einbetten-von-fotos-über-externen-anbieter",
-    "title": "Anleitung",
-    "section": "Einbetten von Fotos über externen Anbieter",
-    "text": "Einbetten von Fotos über externen Anbieter\n\nHochladen\nzum Beispiel über\n\nflickr - kein Beispiel\nalbumizr - Fotos hochladen und dann den angebotenen Text in die Datei einfügen. Beispiel:\n\n\n<iframe loading=\"lazy\" src=\"https://albumizr.com/a/nzJb\" scrolling=\"no\" frameborder=\"0\" allowfullscreen width=\"100%\" height=\"400\"></iframe>\nDas sieht dann so aus:"
-  },
-  {
-    "objectID": "additional/anleitung.html#einbetten-von-videos",
-    "href": "additional/anleitung.html#einbetten-von-videos",
-    "title": "Anleitung",
-    "section": "Einbetten von Videos",
-    "text": "Einbetten von Videos\n\ngeht so:\n\n{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}\n… und sieht dann so aus:"
   }
 ]
