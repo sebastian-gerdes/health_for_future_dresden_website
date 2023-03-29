@@ -15,5 +15,5 @@ Die Nutzung unserer Website ist in der Regel ohne Angabe personenbezogener Daten
 * Verantwortlich für den Datenschutz:
   * Sebastian Gerdes
     * Adresse: Talstraße 7, 01099 Dresden
-    * E-Mail: dresden-solar(at)posteo.de
+    * E-Mail: sebastian.gerdes(at)posteo(punkt)de
 
