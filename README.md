@@ -66,8 +66,8 @@ Geht so:
 * Link zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?
 * Evtl. noch Seite mit Terminen machen?
 * Impressum klären
-* ~~Hauptdomain beziehen~~~
-* ~~Wenn die Seite freigegeben wird, den Ordner `additional` wieder aus dem öffentlichen Bereich nehmen, sodass unter Anderem diese Seite und die Anleitung nicht mehr zu erreichen ist~~~
+* ~~Hauptdomain beziehen~~
+* ~~Wenn die Seite freigegeben wird, den Ordner `additional` wieder aus dem öffentlichen Bereich nehmen, sodass unter Anderem diese Seite und die Anleitung nicht mehr zu erreichen ist~~
 
 ## Angestrebtes Impressum
 Dürfen wir ein Impressum wie z.B. [Freiburg](https://freiburg.healthforfuture.de/?page_id=214) machen? 
