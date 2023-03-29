@@ -68,3 +68,15 @@ Geht so:
 * Impressum klären
 * Hauptdomain beziehen
 * Wenn die Seite freigegeben wird, den Ordner `additional` wieder aus dem öffentlichen Bereich nehmen, sodass unter Anderem diese Seite und die Anleitung nicht mehr zu erreichen ist
+
+## Angestrebtes Impressum
+Dürfen wir ein Impressum wie z.B. [Freiburg](https://freiburg.healthforfuture.de/?page_id=214) machen? 
+
+### Angaben gemäß § 5 Telemediengesetz
+* Health for Future Dresden (freier Zusammenschluss von im Projekt Aktiven)
+* Postalische Kontaktmöglichkeit: Sebastian Gerdes, Talstraße 7, 01099 Dresden
+* Elektronische Kontaktmöglichkeit: dresden bei healthforfuture punkt de
+
+### Datenschutz
+* Auf dieser Seite erfolgt kein Tracking und keine Werbung. Es werden keine Cookies gesetzt.
+* Die Seite ist auf [Netlify](https://netlify.app/) gehosted. [Hier](https://www.netlify.com/privacy/) sind Informationen zum Datenschutz bei Netlify zu finden.

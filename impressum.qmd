@@ -2,19 +2,11 @@
 title: "Impressum"
 ---
 
-## Zu klären:
-Dürfen wir ein Impressum wie z.B. [Freiburg](https://freiburg.healthforfuture.de/?page_id=214) machen? 
-
-## Angaben gemäß § 5 Telemediengesetz
-* Health for Future Dresden (freier Zusammenschluss von im Projekt Aktiven)
-* Postalische Kontaktmöglichkeit: Sebastian Gerdes, Talstraße 7, 01099 Dresden
-* Elektronische Kontaktmöglichkeit: dresden bei healthforfuture punkt de
-
-## Datenschutz
-* Auf dieser Seite erfolgt kein Tracking und keine Werbung. Es werden keine Cookies gesetzt.
-* Die Seite ist auf [Netlify](https://netlify.app/) gehosted. [Hier](https://www.netlify.com/privacy/) sind Informationen zum Datenschutz bei Netlify zu finden.
-
+## Angaben gemäß § 5 [Telemediengesetz](https://www.gesetze-im-internet.de/tmg/BJNR017910007.html)
+* Betreiber dieser Webseite:
+  * Sebastian Gerdes (Privatperson) als Mitglied von Health for Future Dresden
+    * Adresse: Talstraße 7, 01099 Dresden
+    * E-Mail: sebastian.gerdes(at)posteo.de
 
 ## Quellcode der Webseite
-* Der Quellcode der Webseite befindet sich [hier](https://github.com/sebastian-gerdes/health_for_future_dresden_website) in einem öffentlichen Repository bei GitHub. Bei Interesse, die Seite als Vorlage für andere Seiten zu verwernden, kontaktiere gern sebastian.gerdes bei posteo punkt de!
-
+* Der Quellcode der Webseite befindet sich [hier](https://github.com/sebastian-gerdes/health_for_future_dresden_website) in einem öffentlichen Repository bei [GitHub](https://github.com/). Kontaktiere mich (Sebastian Gerdes) gern unter sebastian.gerdes(at)posteo.de, falls Du etwas vom Quellcode verwenden möchtest, das sollte kein Problem sein!
