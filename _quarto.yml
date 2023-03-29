@@ -5,7 +5,7 @@ lang: de
 website:
   title: "Health for Future Dresden"
   cookie-consent: false
-  page-footer: "[Impressum](/impressum.qmd)"
+  page-footer: "[Impressum](/impressum.qmd) - [Datenschutzerklärung](/datenschutzerklaerung.qmd)"
   favicon: images/logo.png
   twitter-card: true
   open-graph: true
