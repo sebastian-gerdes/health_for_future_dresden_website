@@ -3,7 +3,7 @@ This is the github repository for the [quarto](https://quarto.org/)-based websit
 
 Currently, the website is still under construction.
 
-The site is deployed via netlify [here](https://h4f-dresden.netlify.app/). Once it is fit for publication it will hopefully be published at the corresponding subdomain of Health for Future Germany ([Link](http://dresden.healthforfuture.de/)).
+The site is deployed via netlify [here](https://h4f-dresden.netlify.app/). The subdomain [(http://dresden.healthforfuture.de/](http://dresden.healthforfuture.de/) points to netlify.
 
 Feel free to give feedback and contact me if you want to fork this site (should not be a problem).
 
@@ -66,8 +66,8 @@ Geht so:
 * Link zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?
 * Evtl. noch Seite mit Terminen machen?
 * Impressum klären
-* Hauptdomain beziehen
-* Wenn die Seite freigegeben wird, den Ordner `additional` wieder aus dem öffentlichen Bereich nehmen, sodass unter Anderem diese Seite und die Anleitung nicht mehr zu erreichen ist
+* ~~Hauptdomain beziehen~~~
+* ~~Wenn die Seite freigegeben wird, den Ordner `additional` wieder aus dem öffentlichen Bereich nehmen, sodass unter Anderem diese Seite und die Anleitung nicht mehr zu erreichen ist~~~
 
 ## Angestrebtes Impressum
 Dürfen wir ein Impressum wie z.B. [Freiburg](https://freiburg.healthforfuture.de/?page_id=214) machen? 
@@ -75,7 +75,7 @@ Dürfen wir ein Impressum wie z.B. [Freiburg](https://freiburg.healthforfuture.d
 ### Angaben gemäß § 5 Telemediengesetz
 * Health for Future Dresden (freier Zusammenschluss von im Projekt Aktiven)
 * Postalische Kontaktmöglichkeit: Sebastian Gerdes, Talstraße 7, 01099 Dresden
-* Elektronische Kontaktmöglichkeit: dresden bei healthforfuture punkt de
+* Elektronische Kontaktmöglichkeit: dresden(at)healthforfuture(punkt)de
 
 ### Datenschutz
 * Auf dieser Seite erfolgt kein Tracking und keine Werbung. Es werden keine Cookies gesetzt.
