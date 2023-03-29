@@ -33,6 +33,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    email-obfuscation: javascript
 
 
 # title-block-banner: images/banner.jpg
