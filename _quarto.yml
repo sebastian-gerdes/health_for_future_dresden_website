@@ -4,13 +4,12 @@ lang: de
 
 website:
   title: "Health for Future Dresden"
-  # title: "![](images/logo.png) "
   cookie-consent: false
   page-footer: "[Impressum](/impressum.qmd)"
   favicon: images/logo.png
   twitter-card: true
   open-graph: true
-  site-url: https://h4f-dresden.netlify.app/
+  site-url: https://dresden.healthforfuture.de/
   navbar:
     right:
       - news.qmd

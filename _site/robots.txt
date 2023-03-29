@@ -1,1 +1,1 @@
-Sitemap: https://h4f-dresden.netlify.app/sitemap.xml
+Sitemap: https://dresden.healthforfuture.de/sitemap.xml
