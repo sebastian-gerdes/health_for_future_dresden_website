@@ -1,22 +1,8 @@
 ---
 title: "Herzlich willkommen!"
-# image: images/banner.jpg
-# about:
-#   template: marquee
-#   links:
-#     - icon: facebook
-#       text: Facebook
-#       href: https://www.facebook.com/healthforfuturedresden
-#     - icon: instagram
-#       text: Instagram
-#       href: https://www.instagram.com/healthforfuturedresden/
 listing:
   contents: posts
-  sort: "date desc"
   type: grid
-  categories: false
-  sort-ui: false
-  filter-ui: false
   max-items: 3
 ---
 

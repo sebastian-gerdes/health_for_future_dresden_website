@@ -3,8 +3,7 @@ project:
 lang: de
 
 website:
-  title: "![Health for Future Dresden](/images/logo.png){width='15%' fig-align='center'} Health for Future Dresden"
-  # title: Health for Future Dresden
+  title: "![Health for Future Dresden](/images/logo.png){width='20%' fig-align='center'} &emsp;Health for Future Dresden"
   cookie-consent: false
   page-footer: "[Impressum](/impressum.qmd) - [Datenschutzerklärung](/datenschutzerklaerung.qmd)"
   favicon: images/logo.png
@@ -13,7 +12,6 @@ website:
   open-graph: true
   site-url: https://dresden.healthforfuture.de/
   navbar:
-    # logo: images/logo.png
     left:
       - text: "Start"
         file: index.qmd
@@ -38,10 +36,8 @@ website:
       - links.qmd
     right:
       - icon: facebook
-        # text: Facebook
         href: https://www.facebook.com/healthforfuturedresden
       - icon: instagram
-        # text: Instagram
         href: https://www.instagram.com/healthforfuturedresden/
 format:
   html:
@@ -49,5 +45,3 @@ format:
     css: styles.css
     email-obfuscation: javascript
 
-
-# title-block-banner: images/banner.jpg
