@@ -12,6 +12,8 @@ website:
   site-url: https://dresden.healthforfuture.de/
   navbar:
     left:
+      - text: "Start"
+        file: index.qmd
       - news.qmd
       - mitmachen.qmd
       - text: 'Arbeitsgruppen'
