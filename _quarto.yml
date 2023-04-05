@@ -3,7 +3,7 @@ project:
 lang: de
 
 website:
-  title: "![](/images/logo.png){width='40%' fig-align='center'}"
+  title: "![Health for Future Dresden](/images/logo.png){width='40%' fig-align='center'}"
   cookie-consent: false
   page-footer: "[Impressum](/impressum.qmd) - [Datenschutzerklärung](/datenschutzerklaerung.qmd)"
   favicon: images/logo.png
