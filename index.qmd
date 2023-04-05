@@ -1,15 +1,15 @@
 ---
 title: "Health for Future Dresden"
 # image: images/banner.jpg
-about:
-  template: marquee
-  links:
-    - icon: facebook
-      text: Facebook
-      href: https://www.facebook.com/healthforfuturedresden
-    - icon: instagram
-      text: Instagram
-      href: https://www.instagram.com/healthforfuturedresden/
+# about:
+#   template: marquee
+#   links:
+#     - icon: facebook
+#       text: Facebook
+#       href: https://www.facebook.com/healthforfuturedresden
+#     - icon: instagram
+#       text: Instagram
+#       href: https://www.instagram.com/healthforfuturedresden/
 listing:
   contents: posts
   sort: "date desc"
@@ -18,9 +18,6 @@ listing:
   sort-ui: false
   filter-ui: false
   max-items: 3
-page-layout: full
-title-block-banner: false
-
 ---
 
 ![](/images/banner.jpg)
