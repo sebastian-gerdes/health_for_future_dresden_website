@@ -16,6 +16,7 @@ website:
       - mitmachen.qmd
       - text: 'Arbeitsgruppen'
         menu:
+          - arbeitsgruppen/koordination.qmd
           - arbeitsgruppen/zero_emission_hospital.qmd
           - arbeitsgruppen/nachhaltige_praxis.qmd
           - arbeitsgruppen/divestment.qmd
