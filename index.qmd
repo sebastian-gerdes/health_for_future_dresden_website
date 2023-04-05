@@ -1,6 +1,6 @@
 ---
-title: "Über das Projekt"
-image: images/banner.jpg
+title: "Health for Future Dresden"
+# image: images/banner.jpg
 about:
   template: marquee
   links:
@@ -19,11 +19,11 @@ listing:
   filter-ui: false
   max-items: 3
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 
 ---
 
-## Herzlich Willkommen auf der Seite von Health for Future Dresden!
+![](/images/banner.jpg)
 
 Der Klimawandel ist eine Herausforderung für alle - auch und insbesondere für die Gesundheitsberufe.
 

@@ -1,5 +1,5 @@
 ---
-title: "Ernährung"
+title: "Arbeitsgruppe Ernährung"
 toc: true
 ---
 

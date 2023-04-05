@@ -3,7 +3,7 @@ project:
 lang: de
 
 website:
-  title: "Health for Future Dresden"
+  title: "![](/images/logo.png){width='40%' fig-align='center'}"
   cookie-consent: false
   page-footer: "[Impressum](/impressum.qmd) - [Datenschutzerklärung](/datenschutzerklaerung.qmd)"
   favicon: images/logo.png
@@ -11,19 +11,27 @@ website:
   open-graph: true
   site-url: https://dresden.healthforfuture.de/
   navbar:
-    right:
+    left:
       - news.qmd
       - mitmachen.qmd
       - text: 'Arbeitsgruppen'
         menu:
-          - arbeitsgruppen/koordination.qmd
-          - arbeitsgruppen/zero_emission_hospital.qmd
-          - arbeitsgruppen/nachhaltige_praxis.qmd
-          - arbeitsgruppen/divestment.qmd
-          - arbeitsgruppen/ernaehrung.qmd
-          - arbeitsgruppen/lehre.qmd
-          - arbeitsgruppen/hitzeschutz.qmd
+          - text: "Koordination"
+            file: arbeitsgruppen/koordination.qmd
+          - text: "Zero Emission Hospital"
+            file: arbeitsgruppen/zero_emission_hospital.qmd
+          - text: "Initiative Nachhaltige Praxis"
+            file: arbeitsgruppen/nachhaltige_praxis.qmd
+          - text: "Divestment"
+            file: arbeitsgruppen/divestment.qmd
+          - text: "Ernährung"
+            file: arbeitsgruppen/ernaehrung.qmd
+          - text: "Lehre"
+            file: arbeitsgruppen/lehre.qmd
+          - text: "Hitzschutz"
+            file: arbeitsgruppen/hitzeschutz.qmd
       - links.qmd
+    right:
       - icon: facebook
         # text: Facebook
         href: https://www.facebook.com/healthforfuturedresden
