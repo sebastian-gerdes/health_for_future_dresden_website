@@ -8,7 +8,7 @@ Die Nutzung unserer Website ist in der Regel ohne Angabe personenbezogener Daten
 
 
 * Auf dieser Seite werden keine Cookies gesetzt und die Seite beinhaltet keine Werbung
-* Die Seite ist auf [Netlify](https://netlify.app/) gehosted. [Hier](https://www.netlify.com/gdpr-ccpa/) sind Informationen zum Datenschutz bei Netlify zu finden.
+* Die Seite ist auf [Netlify](https://www.netlify.com/) gehosted. [Hier](https://www.netlify.com/gdpr-ccpa/) sind Informationen zum Datenschutz bei Netlify zu finden.
 
 <!-- * Die Kommentarfunktion ist über eine Einbettung von [Github utterances](https://github.com/utterance/utterances) realisiert. Inwieweit dort personenbezogene Daten erhoben werden entnehmen Sie bitte der [Projektwebseite](https://github.com/utterance/utterances). -->
 

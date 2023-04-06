@@ -31,6 +31,8 @@ website:
             file: arbeitsgruppen/ernaehrung.qmd
           - text: "Lehre"
             file: arbeitsgruppen/lehre.qmd
+          - text: "Hygienemuseum"
+            file: arbeitsgruppen/hygienemuseum.qmd
           - text: "Hitzschutz"
             file: arbeitsgruppen/hitzeschutz.qmd
       - links.qmd
