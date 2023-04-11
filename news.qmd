@@ -4,4 +4,5 @@ image: images/banner.jpg
 listing:
   contents: posts
   type: default
+  sort: "date desc"
 ---

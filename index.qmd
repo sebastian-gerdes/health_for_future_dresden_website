@@ -4,6 +4,7 @@ listing:
   contents: posts
   type: grid
   max-items: 3
+  sort: "date desc"
 ---
 
 ![](/images/banner.jpg)

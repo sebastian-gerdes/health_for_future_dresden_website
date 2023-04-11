@@ -2,17 +2,19 @@
   {
     "listing": "/news.html",
     "items": [
+      "/posts/2023-04-11-stoppt-die-kohle-im-osten/index.html",
       "/posts/2023-03-31-klima-demo/index.html",
-      "/posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html",
-      "/posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html"
+      "/posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html",
+      "/posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2023-04-11-stoppt-die-kohle-im-osten/index.html",
       "/posts/2023-03-31-klima-demo/index.html",
-      "/posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html",
-      "/posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html"
+      "/posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html",
+      "/posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html"
     ]
   }
 ]
