@@ -7,6 +7,15 @@ The site is deployed via netlify [here](https://h4f-dresden.netlify.app/). The s
 
 Feel free to give feedback and contact me if you want to fork this site (should not be a problem).
 
+## Zu klären:
+* Plena auf Webseite ankündigen?
+* Duzen / Siezen? Groß oder klein schreiben?
+* Titel auf mobiler Seite
+* E-Mail obfuscation
+* Link zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?
+* Evtl. noch Seite mit Terminen machen?
+* Impressum klären
+
 ## Anleitung
 ### Installation
 * Benötigte Software (evtl. kann RStudio quarto und git gleich mitinstallieren)
@@ -59,15 +68,6 @@ Geht so:
 {{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
 ```
 
-
-## ToDo
-
-* Inhalte befüllen, insbesondere von den AG-Seiten
-* Link zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?
-* Evtl. noch Seite mit Terminen machen?
-* Impressum klären
-* ~~Hauptdomain beziehen~~
-* ~~Wenn die Seite freigegeben wird, den Ordner `additional` wieder aus dem öffentlichen Bereich nehmen, sodass unter Anderem diese Seite und die Anleitung nicht mehr zu erreichen ist~~
 
 ## Angestrebtes Impressum
 Dürfen wir ein Impressum wie z.B. [Freiburg](https://freiburg.healthforfuture.de/?page_id=214) machen? 
