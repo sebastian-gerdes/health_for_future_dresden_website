@@ -1,5 +1,35 @@
 ---
-title: 'Arbeitsgruppe "Zero Emission Hospital"'
+title: 'Arbeitsgruppe „Zero Emission Hospital“'
 ---
 
-Inhalte werden derzeit erarbeit!
+## Was hat die Klimakrise mit meiner Tätigkeit im Krankenhaus zu tun?
+
+Der Gesundheitsektor ist derzeit für ~4,4% der globalen CO2-Nettoemissionen (~2 Gigatonnen CO2 Äquivalent/Jahr) verantwortlich. Wäre der globale Gesundheitsektor ein Land, wäre er der fünftgrößte Emittent von Klimagasen im weltweiten Ranking. In Deutschland beträgt der Anteil 5,2 %, im EU-Durchschnitt 4,7%.  Es liegt daher auf der Hand, dass auch der Gesundheitssektor außerordentliche Anstrengungen unternehmen muss, um seinen Beitrag zur Erreichung des Pariser Abkommens (Begrenzung der globalen Erwärmung auf 1,5 °C) zu leisten.
+
+Vor diesem Hintergrund hat sich der 125. Deutsche Ärztetag 2021 dafür ausgesprochen, dass das deutsche Gesundheitswesen bis zum Jahr 2030 klimaneutral wird. Für das Erreichen dieses Zieles ist die Verringerung der CO2-Emissionen der Krankenhäuser und Arztpraxen eine unabdingbare Voraussetzung.
+
+## Notwendige Handlungsfelder:
+
+* Energieverbrauch
+* Gebäude und Gelände
+* Anästhesiegase / Inhaler / chemische Stoffe
+* Wasser
+* Abfall
+* Transport
+* Einkauf
+* Ernährung
+* Büro / EDV
+
+## Ziel der AG und Kontakt
+Ziel der AG ist es, sowohl Leitungsgremien als auch Mitarbeitende der Dresdner Kliniken auf diese Problematik hinzuweisen und den notwendigen Transformationsprozess „vor Ort“ aktiv mitzugestalten. 
+
+Enge Kontakte bestehen zum
+
+* [Städtischen Klinikum Dresden](https://www.klinikum-dresden.de/klimaschutz-path-20,3774.html)
+* [Universitätsklinikum](https://www.uniklinikum-dresden.de/de/das-klinikum/umwelt)
+
+Herzlich willkommen sind alle, die sich in diesen Prozess aktiv einbringen möchten!
+
+Kontakt: dresden(at)healthforfuture(punkt)de
+
+Zum Weiterlesen: [Erklärung der Arbeitsgruppe „Klimawandel“ der Bundesärztekammer](https://www.bundesaerztekammer.de/fileadmin/user_upload/BAEK/Themen/Klimawandel/Handlungsfelder_im_Krankenhaus_zur_Klimaneutralitaet.pdf)
