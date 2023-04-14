@@ -15,6 +15,7 @@ Feel free to give feedback and contact me if you want to fork this site (should 
 * Link zu Telegram-Kanal? Link zu Mailingliste von H4F-Deutschland?
 * Evtl. noch Seite mit Terminen machen?
 * Impressum klären
+* Instagram-Account geht nicht mehr
 
 ## Anleitung
 ### Installation
