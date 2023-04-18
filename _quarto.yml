@@ -45,8 +45,8 @@ website:
     right:
       - icon: facebook
         href: https://www.facebook.com/healthforfuturedresden
-      # - icon: instagram
-      #   href: https://www.instagram.com/healthforfuturedresden/
+      - icon: instagram
+        href: https://www.instagram.com/healthforfuturedresden/
 format:
   html:
     theme: cosmo
