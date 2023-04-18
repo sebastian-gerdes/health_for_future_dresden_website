@@ -56,6 +56,8 @@ files <- c('images/links_logos/KLUG_Logo-150.png',
            'images/links_logos/fff_dresden.webp', 
            'images/links_logos/h4f-logo.png')
 
+files <- c('images/links_logos/logo_for_future.png')
+
 change_image_dimensions(files)
 
 ```
