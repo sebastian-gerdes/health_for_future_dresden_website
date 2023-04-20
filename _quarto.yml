@@ -43,8 +43,8 @@ website:
             file: arbeitsgruppen/hitzeschutz.qmd
       - links.qmd
     right:
-      - icon: facebook
-        href: https://www.facebook.com/healthforfuturedresden
+      # - icon: facebook
+      #   href: https://www.facebook.com/healthforfuturedresden
       - icon: instagram
         href: https://www.instagram.com/healthforfuturedresden/
 #  margin-header: margin.qmd
