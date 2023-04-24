@@ -47,7 +47,7 @@ website:
       #   href: https://www.facebook.com/healthforfuturedresden
       - icon: instagram
         href: https://www.instagram.com/healthforfuturedresden/
-#  margin-header: margin.qmd
+  margin-header: naechste_termine.qmd
 filters:
    - lightbox
 # lightbox: auto
@@ -56,5 +56,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    grid:
+      margin-width: 400px
     # email-obfuscation: javascript
 
