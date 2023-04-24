@@ -47,7 +47,7 @@ website:
       #   href: https://www.facebook.com/healthforfuturedresden
       - icon: instagram
         href: https://www.instagram.com/healthforfuturedresden/
-  margin-header: naechste_termine.qmd
+#  margin-header: naechste_termine.qmd
 filters:
    - lightbox
 # lightbox: auto

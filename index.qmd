@@ -23,4 +23,7 @@ Wir wollen:
 
 Wir freuen uns über jeden Menschen, der diese Ziele teilt und sich bei uns [engagieren](mitmachen.qmd) möchte!
 
+{{< include naechste_termine.qmd >}}
+
+
 ## News
