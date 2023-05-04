@@ -1,0 +1,24 @@
+---
+title: "Webseite Diskussion"
+format: revealjs
+self-contained: true
+---
+
+## Prinzipien
+* Alles wichtige soll drauf, aber nicht mehr 
+* Weniger ist mehr, Fokus eher eng halten
+* Übersichtlichkeit, Schlichtheit
+* Es sollte ersichtlich sein, dass wir aktiv sind (schöne aktuelle Bilder etc.), jedoch Webseite nicht überladen
+
+## Was soll drauf
+* Allgemeines (wer wir sind, was wir wollen und warum)
+* Kommende AG-Termine
+* Eigene kommende Aktionen
+* Eng verwandte Aktionen, die wir gut finden
+* Eher nicht: Breit gestreutes Weiterleiten von Veranstaltungen / Aktionen von anderen, die wir zugeschickt bekommen
+
+## Wie beitragen?
+* Von mir aus lieber per E-Mail als per Telegram
+* Für AG-Termine: Welche AG, wann, Wo
+* Für News: Titel, Text, Bild(er)
+
