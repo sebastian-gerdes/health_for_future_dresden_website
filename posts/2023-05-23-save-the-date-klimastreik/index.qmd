@@ -3,7 +3,7 @@ title: 'Globaler Klimastreik 15.9.2023'
 date: "2023-05-23"
 ---
 
-![](images/2023-05-18-release-1-1-a)
+![](images/2023-05-18-release-1-1-a.png){width='75%' fig-align='center'}
 
 Save the date!
 
