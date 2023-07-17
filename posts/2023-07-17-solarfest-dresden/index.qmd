@@ -3,7 +3,7 @@ title: "Solarfest Dresden am 22.7.2023!"
 format: html
 date: "2023-07-17"
 toc: false
-image: flyer.jpg
+# image: flyer.jpg
 # categories: [Allgemeines]
 ---
 
