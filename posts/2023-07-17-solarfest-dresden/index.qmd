@@ -1,0 +1,25 @@
+---
+title: "Solarfest Dresden am 22.7.2023!"
+format: html
+date: "2023-07-17"
+toc: false
+image: flyer.jpg
+# categories: [Allgemeines]
+---
+
+![](ensemble_incroyable_small.jpeg){width='100%' fig-align='center'}
+
+Um dem Klimawandel entgegenzuwirken braucht es eine Energiewende!
+
+Dabei kann Solarenergie eine große Rolle spielen. Viele Dächer sind für Photovoltaikanlagen geeignet, und Strom aus Sonnenenergie kann dort zum Teil mit niedrigen Kosten gewonnen werden.
+
+Was es braucht, sind viele Menschen, die sich in ihrer Umgebung umschauen, geeignete Dächer und andere Flächen ausmachen und die Installation einer Photovoltaikanlage auf den Weg bringen.
+
+Um dazu zu motivieren, findet am 22.7.2023, 18:00 Uhr auf dem Martin-Luther-Platz „an der Kugel“ ein Solarfest statt!
+
+Das [Ensemble Incroyable](https://www.youtube.com/@ensembleincroyable2685) wird Musik zum Fest beisteuern. Neben der Musik wird es die Möglichkeit geben, miteinander ins Gespräch zu kommen, sich zu vernetzen und erste Ideen zu entwickeln.
+
+Toll wäre, wenn nach dem Fest, möglichst viele Menschen Solarprojekte in ihrem Umfeld beginnen!
+
+Mehr Infos findest Du [hier](https://dresden-solar.netlify.app/)!
+
