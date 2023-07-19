@@ -6,7 +6,7 @@ website:
   title: "![Health for Future Dresden](/images/logo_wide.png){width='20%' fig-align='center'} Health for Future Dresden"
   # title: "Health for Future Dresden"
   # title: "![Health for Future Dresden](/images/logo_wide.png){width='40%' fig-align='center'}"
-  cookie-consent: false
+  cookie-consent: true
   page-footer: "[Impressum](/impressum.qmd) - [Datenschutzerklärung](/datenschutzerklaerung.qmd)"
   favicon: images/logo.png
   twitter-card: true
