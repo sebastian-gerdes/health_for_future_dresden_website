@@ -67,4 +67,17 @@ title: "Links"
 :::
 :::
 
+-------------
+
+
+::: columns
+::: {.column width="30%"}
+![](images/links_logos/logo_pharmacists_for_future.png){width='66%' fig-align='center'}
+:::
+::: {.column width="70%"}
+### [Pharmacists for Future](https://pharmacistsforfuture.org/)
+:::
+:::
+
+
 

@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/news.html",
     "items": [
+      "/posts/2023-09-07-einladung-zum-onboarding/index.html",
       "/posts/2023-08-17-macht-hitze-krank/index.html",
       "/posts/2023-08-10-globaler-klimastreik/index.html",
       "/posts/2023-07-17-solarfest-dresden/index.html",
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "listing": "/news.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2023-09-07-einladung-zum-onboarding/index.html",
       "/posts/2023-08-17-macht-hitze-krank/index.html",
       "/posts/2023-08-10-globaler-klimastreik/index.html",
       "/posts/2023-07-17-solarfest-dresden/index.html",
