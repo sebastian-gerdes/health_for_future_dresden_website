@@ -1,6 +1,7 @@
 ---
 title: '13.9.2023: Macht Hitze krank? Podiumsgespräch im Hygienemuseum'
 date: "2023-08-17"
+draft: true
 ---
 
 ![](images/macht_hitze_krank-symposium.jpeg){width='100%' fig-align='center'}
