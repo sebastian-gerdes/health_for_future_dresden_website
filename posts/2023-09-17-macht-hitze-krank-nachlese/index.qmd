@@ -3,7 +3,8 @@ title: 'Macht Hitze krank? Nachlese zum Podiumsgespräch im Hygienemuseum'
 date: "2023-09-17"
 ---
 
-![](images/macht_hitze_krank-symposium.jpeg){width='100%' fig-align='center'}
+![](images/photo_2023-09-15_06-22-54.jpg){width='100%' fig-align='center'}
+<!-- ![](images/macht_hitze_krank-symposium.jpeg){width='100%' fig-align='center'} -->
 
 Am 13.09.2023 fand im Hygienemuseum die  Diskussionsveranstaltung mit dem Titel "Macht Hitze krank? - Risiken und Nebenwirkungen der Klimakrise" in Kooperation mit Health for Future Dresden und der Stadt Dresden statt. Die Veranstaltung zog zahlreiche Besucher aus verschiedenen gesellschaftlichen und beruflichen Hintergründen an und versprach, ein informatives und aufschlussreiches Forum für den Meinungsaustausch zu sein.
 
@@ -20,3 +21,8 @@ Das Publikum hatte auch die Gelegenheit, Fragen zu stellen und aktiv an der Disk
 Die Diskussionsveranstaltung "Macht Hitze krank? - Risiken und Nebenwirkungen der Klimakrise"  erwies sich als äußerst informativ und anregend. Sie bot den Teilnehmenden nicht nur die Möglichkeit, ihr Wissen über das Thema zu vertiefen, sondern auch, sich mit Gleichgesinnten auszutauschen.
 
 Wir bedanken uns beim Deutschen Hygienemuseum, den Referierenden, Eva Jähnigen, Anna Georgi und der Stadt Dresden für die Unterstützung und hoffen, dass solche Veranstaltungen in Zukunft wiederholt werden und dazu beitragen, ein Bewusstsein für das Thema zu schaffen und gemeinsam Lösungen zu gestalten.
+
+<!-- ![](images/photo_2023-09-13_22-09-02.jpg){width='100%' fig-align='center'} -->
+<!-- ![](images/photo_2023-09-15_06-22-48.jpg){width='100%' fig-align='center'} -->
+
+
