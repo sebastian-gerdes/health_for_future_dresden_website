@@ -4,7 +4,7 @@ date: "2023-09-07"
 image: /images/logo.png
 ---
 
-Komm gern zu unserem nächsten Plenum! Das Plenum ist ein guter Startpunkt für die Mitarbeit. Die Plena finden ca. einmal monatlich statt. In diesen Treffen tauschen wir uns über die Projektfortschritte aus
+Komm gern zu unserem nächsten Plenum! Das Plenum ist ein guter Startpunkt für die Mitarbeit. Die Plena finden ca. einmal monatlich statt. In diesen Treffen tauschen wir uns über die Projektfortschritte aus.
 
 * Wann: 26.9.2023, 20:00 Uhr
 * Wo: "Impactloft", Theaterstraße 4, 1. OG
