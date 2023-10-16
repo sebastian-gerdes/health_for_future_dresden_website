@@ -1,6 +1,8 @@
 ---
 title: "9.11.2023: Vorträge zu Planetary Health diet in der Berufsakademie"
 date: "2023-10-16"
+image: /images/logo.png
+
 ---
 
 Gern möchten wir auf eine Veranstaltung mit folgenden Vorträgen aufmerksam machen:
