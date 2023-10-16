@@ -1,7 +1,7 @@
 ---
 title: "9.11.2023: Vorträge zu 'Planetary Health Diet' in der Berufsakademie"
 date: "2023-10-16"
-image: /images/logo.png
+image: planetary_health_diet.jpg
 
 ---
 
@@ -19,3 +19,4 @@ Gern möchten wir auf eine Veranstaltung mit folgenden Vorträgen aufmerksam mac
 * Wann: 9.11. November 2023, ab 15:30 Uhr
 * Wo: im Raum 3.015 Berufsakademie Dresden, Hans-Grundig-Str. 25
 
+([Bildquelle](https://commons.wikimedia.org/wiki/File:Food-healthy-vegetables-potatoes_(23958160949).jpg))
