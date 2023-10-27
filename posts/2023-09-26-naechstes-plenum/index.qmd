@@ -2,6 +2,7 @@
 title: "26.10.2023: Nächstes Plenum"
 date: "2023-09-26"
 image: /images/logo.png
+draft: true
 ---
 
 Komm gern zu unserem nächsten Plenum! Das Plenum ist ein guter Startpunkt für die Mitarbeit. Die Plena finden ca. einmal monatlich statt. In diesen Treffen tauschen wir uns über die Projektfortschritte aus.
