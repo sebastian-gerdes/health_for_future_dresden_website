@@ -5,12 +5,15 @@ image: planetary_health_diet.jpg
 
 ---
 
+![](planetary_health_diet.jpg)
+
+([Bildquelle](https://commons.wikimedia.org/wiki/File:Food-healthy-vegetables-potatoes_(23958160949).jpg))
+
 Gern möchten wir auf eine vielversprechende Vortragsveranstaltung der Berufsakademie Dresden aufmerksam machen! 
 
 Mehr Infos findet ihr auf dieser [Seite](https://www.ba-dresden.de/die-akademie/veranstaltungen/veranstaltungen-detailseite/vortragsveranstaltung-planetary-health))!
 
 
-([Bildquelle](https://commons.wikimedia.org/wiki/File:Food-healthy-vegetables-potatoes_(23958160949).jpg))
 
 # Alternativtermin 9.11.2023, 13:00 bis 14:30 Uhr
 Für alle, die nur früher am Tag können gibt es auch einen Alternativtermin an der Medizinischen Fakultät
