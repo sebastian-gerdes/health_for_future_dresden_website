@@ -7,13 +7,9 @@ image: planetary_health_diet.jpg
 
 ![](planetary_health_diet.jpg)
 
-([Bildquelle](https://commons.wikimedia.org/wiki/File:Food-healthy-vegetables-potatoes_(23958160949).jpg))
-
 Gern möchten wir auf eine vielversprechende Vortragsveranstaltung der Berufsakademie Dresden aufmerksam machen! 
 
 Mehr Infos findet ihr auf dieser [Seite](https://www.ba-dresden.de/die-akademie/veranstaltungen/veranstaltungen-detailseite/vortragsveranstaltung-planetary-health))!
-
-
 
 # Alternativtermin 9.11.2023, 13:00 bis 14:30 Uhr
 Für alle, die nur früher am Tag können gibt es auch einen Alternativtermin an der Medizinischen Fakultät
@@ -21,3 +17,5 @@ Für alle, die nur früher am Tag können gibt es auch einen Alternativtermin an
 * Vortrag „Ernährung und Planetary Health“ am Donnerstag, den 9.11.2023 von 13.00-14.30 Uhr
 * Ort: Seminarräume 108a+b (Erdgeschoß) im Haus 40 (Dekanat) auf der Fiedlerstraße 29
 * Für den Vortrag ist eine (unverbindliche) Voranmeldung von Nöten, damit wir den Raumbedarf einschätzen können. Interessierte wenden sich daher bitte an: alice.freiberg@tu-dresden.de
+
+([Bildquelle](https://commons.wikimedia.org/wiki/File:Food-healthy-vegetables-potatoes_(23958160949).jpg))
