@@ -5,7 +5,9 @@ image: planetary_health_diet.jpg
 
 ---
 
-Gern möchten wir auf eine Veranstaltung mit folgenden Vorträgen aufmerksam machen:
+Gern möchten wir auf eine Veranstaltungsreihe der Berufsakademie Dresden aufmerksam machen (mehr Infos auf dieser [Seite](https://www.ba-dresden.de/die-akademie/veranstaltungen/veranstaltungen-detailseite/vortragsveranstaltung-planetary-health)).
+
+Es wird unter anderem folgende Vorträge geben:
 
 * *Von Bratwurst und Brokkoli: Unser Essen, unser Planet, unsere Verantwortung. Wie unsere Ernährungssysteme die Gesundheit der Erde bedrohen, und was wir jetzt verändern können, ohne dabei den Appetit zu verlieren*
   * Vortragender: Herrn Dr. Jörg Schmid, Wissenschaftlicher Mitarbeiter Ernährung und Planetary Health, KLUG - Deutsche Allianz Klimawandel und Gesundheit e.V.
