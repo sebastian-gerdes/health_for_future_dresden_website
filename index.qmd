@@ -11,9 +11,8 @@ listing:
 
 ![](/images/banner.jpg)
 
-## [Herzlichen Dank für ein erfolgreiches Jahr 2023!](posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/) 
+### [Herzlichen Dank für ein erfolgreiches Jahr 2023!](posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/) 
 <!-- ![](posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/New_Year_Berlin.webp){fig-align="center" width=80%} -->
-
 
 Der Klimawandel ist eine Herausforderung für alle - auch und insbesondere für die Gesundheitsberufe.
 
