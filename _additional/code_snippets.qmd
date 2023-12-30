@@ -7,7 +7,7 @@ execute:
 ## Neuen Post erstellen
 ```{r}
 create_post <- function(post_title) {
-  ll <- readLines('additional/sample_post.qmd')
+  ll <- readLines('_additional/sample_post.qmd')
   ll[2] <- paste('title: \"', post_title, "\"", sep = '')
   ll[3] <- paste('date: \"', Sys.Date(), "\"", sep = '')
   file_name <- paste0('posts/', Sys.Date(), '_',
@@ -19,7 +19,7 @@ create_post <- function(post_title) {
 ```
 
 ```{r}
-create_post(post_title = 'Das ist ein Test')
+create_post(post_title = 'Herzlichen Dank - Gemeinsam für Klima und Gesundheit!')
 ```
 
 ## Seite neu zusammenstellen (=rendern)
