@@ -19,6 +19,8 @@ website:
         file: index.qmd
       - news.qmd
       - mitmachen.qmd
+      - text: "Vorträge"
+        file: vortraege.qmd
       - text: 'Arbeitsgruppen'
         menu:
           - text: "Koordination"
