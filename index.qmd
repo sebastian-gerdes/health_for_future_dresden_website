@@ -60,15 +60,15 @@ Wir freuen uns über jeden Menschen, der diese Ziele teilt und sich bei uns [eng
 <!-- * 4.3.2024, 20:00 Uhr: Plenum hybrid ("Impactloft" Theaterstraße 4, 1. OG, Zoom-Link auf Anfrage) -->
 <!-- * 7.3.2024, mittags Ernährungsstand im Caruso am Uniklinikum -->
 
+<!-- | 20.2.2024, 19:00 Uhr| Treffen der Hitze-AG | "Impactloft" Theaterstraße 4, 1. OG | -->
+<!-- | 22.2.2024 | Treffen der Politik-AG  | online, Zoom-Link auf Anfrage | -->
+
 | Wann                      | Was                   | Wo                     |
 |---------------------------|-----------------------|------------------------|
-| 20.2.2024, 19:00 Uhr| Treffen der Hitze-AG | "Impactloft" Theaterstraße 4, 1. OG |
-| 22.2.2024 | Treffen der Politik-AG  | online, Zoom-Link auf Anfrage |
 | 1.3.2024 | Treffen der AG Lehre | ausstehend
 | 4.3.2024, 19:00 Uhr | Treffen der AG Ernährung | "Impactloft" Theaterstraße 4, 1. OG |
 | 4.3.2024, 20:00 Uhr | Plenum hybrid | "Impactloft" Theaterstraße 4, 1. OG, Zoom-Link auf Anfrage
 | 7.3.2024, mittags | Infostand AG Ernährung | Kantine "Caruso" am Uniklinikum
-
 : {tbl-colwidths="[30,30,40]"}
 
 ## News
