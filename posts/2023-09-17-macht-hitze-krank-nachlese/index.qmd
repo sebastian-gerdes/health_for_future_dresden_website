@@ -1,6 +1,7 @@
 ---
 title: 'Macht Hitze krank? Nachlese zum Podiumsgespräch im Hygienemuseum'
 date: "2023-09-17"
+image: /images/logo.png
 ---
 
 <!-- ![](images/photo_2023-09-15_06-22-54.jpg){width='100%' fig-align='center'} -->
