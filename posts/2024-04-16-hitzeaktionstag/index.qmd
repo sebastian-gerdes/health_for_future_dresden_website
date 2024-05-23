@@ -2,7 +2,8 @@
 title: "5.6.2024: Hitzeaktionstag - seid dabei!"
 date: "2024-04-16"
 ---
-![](HAT24-Logo-Verlauf.jpg)
+<!-- ![](HAT24-Logo-Verlauf.jpg) -->
+![](hitzeaktionstag.jpeg)
 
 Seid dabei beim Hitzeaktionstag am 5.6. am Dr.-Külz-Ring! 
 
