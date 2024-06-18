@@ -1,0 +1,15 @@
+---
+title: "Gynäkologie in Zeiten der Klimakrise"
+date: "2024-06-18"
+image: gyn_in_zeiten_der_klimakrise.png
+filters:
+   - lightbox
+lightbox: true
+---
+
+
+::: {layout="[1, 1]"}
+![](gyn_in_zeiten_der_klimakrise_1.png){group="gyn_in_zeiten_der_klimakrise"}
+
+![](gyn_in_zeiten_der_klimakrise_2.png){group="gyn_in_zeiten_der_klimakrise"}
+:::
