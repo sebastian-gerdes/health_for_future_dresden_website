@@ -1,5 +1,6 @@
 ---
-title: "Gynäkologie in Zeiten der Klimakrise - Veranstaltungsbericht"
+# title: "Gynäkologie in Zeiten der Klimakrise - Veranstaltungsbericht"
+title: "Test"
 date: "2024-07-01"
 #image: gyn_in_der_klimakrise.jpeg
 ---
