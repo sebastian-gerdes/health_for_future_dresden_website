@@ -83,3 +83,13 @@ Dürfen wir ein Impressum wie z.B. [Freiburg](https://freiburg.healthforfuture.d
 ### Datenschutz
 * Auf dieser Seite erfolgt kein Tracking und keine Werbung. Es werden keine Cookies gesetzt.
 * Die Seite ist auf [Netlify](https://netlify.app/) gehosted. [Hier](https://www.netlify.com/privacy/) sind Informationen zum Datenschutz bei Netlify zu finden.
+
+
+
+<details> 
+<summary> 
+Beispiele für Einzelpraxis/ große Gemeinschaftspraxis/ operative Tagesklinik 
+<\summary>
+Bei der unkompliziert möglichen Umstellung vom günstigsten Strom bei z.B. dem dresdner Grundversorger, der DREWAG, auf Ökostrom beim gleichen Anbieter sind das bei einer kleinen Hausarztpraxis mit einem Verbrauch von 1900 kWh/Jahr nicht einmal fünf Euro Mehrkosten. Für eine große Praxis mit 20 Mitarbeitern und 100 Praxisstunden/Woche (9325 kWh/Jahr)wären es Mehrkosten von 23 Euro und eine Praxis mit angeschlossener Tagesklinik (ca. 17000 kWh/Jahr) würde jährlich 40 Euro mehr zahlen bei Wechsel auf Strom aus erneuerbaren Energien.
+Übrigens gehören die örtlichen Grundversorger oft zu den teuersten Stromanbietern. Laut einem Vergleich des Bundeswirtschaftsministeriums lag der durchschnittliche Strompreis 2018 in der Grundversorgung bei 31,47 Cent pro kWh. Der Preis aller von der Vergleichsplattform EcoTopTen empfohlenen und mit Grüner-Strom- oder ok-Power-Label zertifizierten Ökostrom-Tarife liegt unter diesem Preis – allerdings ohne Berücksichtigung monatlicher Grundgebühren. Somit könnte man bei einem Wechsel sogar Geld sparen!
+<\details>
