@@ -11,8 +11,8 @@ website:
   page-footer: "[Impressum](/impressum.qmd) - [Datenschutzerklärung](/datenschutzerklaerung.qmd)"
   favicon: images/logo.png
   twitter-card: true
-  image: images/logo.png
   open-graph: true
+  image: images/logo.png
   site-url: https://dresden.healthforfuture.de/
   navbar:
     left:
@@ -61,5 +61,6 @@ format:
     css: styles.css
     grid:
       margin-width: 400px
+      
     # email-obfuscation: javascript
 
