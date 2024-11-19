@@ -1,5 +1,6 @@
 ---
-title: "Herzlich willkommen!"
+# title: "Herzlich willkommen!"
+title: "Health for Future Dresden"
 listing:
   contents: posts
   type: grid

@@ -1,1 +1,25 @@
 /* css styles */
+.navbar-brand {
+    height: 100px; /* Adjust the height */
+    width: auto;  /* Maintain aspect ratio */
+}
+
+.navbar-container.container-fluid{
+  min-height: 100px;
+}
+
+.navbar {
+  min-height: 100px; /* Adjust to your desired height */
+  padding: 10px 0;  /* Optional: Adjust padding for alignment */
+}
+
+.navbar-logo {
+  min-height: 100%;
+  width: auto;
+}
+
+
+.navbar-brand-container{
+  min-height: 100px;
+}
+
