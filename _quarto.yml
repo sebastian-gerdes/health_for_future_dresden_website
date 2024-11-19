@@ -4,7 +4,7 @@ lang: de
 
 website:
   # title: "![Health for Future Dresden](/images/logo_wide.png){width='20%' fig-align='center'} Health for Future Dresden"
-  title: "![Health for Future Dresden](/images/logo_wide.png){width=140px} Health for Future Dresden"
+  # title: "![Health for Future Dresden](/images/logo_wide.png){width=140px} Health for Future Dresden"
   # title: "Health for Future Dresden"
   # title: "![Health for Future Dresden](/images/logo_wide.png){width='40%' fig-align='center'}"
   cookie-consent:
@@ -17,7 +17,7 @@ website:
   site-url: https://dresden.healthforfuture.de/
   navbar:
     #title: " Test"
-    #logo: "/images/logo_wide.png"
+    logo: "/images/logo_wide.png"
     left:
       - text: "Start"
         file: index.qmd
