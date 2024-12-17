@@ -12,6 +12,9 @@ listing:
 
 ![](/images/banner.jpg)
 
+## [Aktuell: Petition „Dresden darf den Klimaschutz nicht aufgeben“ online!!!](posts/2024-12-17-petition-dresden-klimaschutz/index.qmd)
+
+
 <!-- ### [Herzlichen Dank für ein erfolgreiches Jahr 2023!](posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/)  -->
 <!-- ![](posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/New_Year_Berlin.webp){fig-align="center" width=80%} -->
 
