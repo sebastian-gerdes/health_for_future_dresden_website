@@ -3,8 +3,8 @@
 title: "Herzlich willkommen bei <nobr>Health for Future Dresden!</nobr>"
 listing:
   contents: posts
-  type: grid
-  grid-columns: 3
+  # type: grid
+  # grid-columns: 3
   max-items: 6
   max-description-length: 300
   sort: "date desc"

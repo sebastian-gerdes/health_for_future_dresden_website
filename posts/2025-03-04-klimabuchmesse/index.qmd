@@ -5,7 +5,7 @@ image: /images/logo.png
 ---
 <!-- ![](/images/logo.png) -->
 
-Am 29.3.2025 veranstalten Health for Future Dresden und Leipzig gemeinsam eine Veranstaltung im Rahmen der KLimabuchmesse Leipzig:
+Am 29.3.2025 veranstalten Health for Future Dresden und Leipzig gemeinsam eine Veranstaltung im Rahmen der Klimabuchmesse Leipzig:
 
 * Zeit: 15:00 Uhr
 * Ort: [Reallabor](https://reallabor-leipzig.de/)
