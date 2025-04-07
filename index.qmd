@@ -28,6 +28,6 @@ Wir wollen:
 
 Wir freuen uns über jeden Menschen, der diese Ziele teilt und sich bei uns [engagieren](mitmachen.qmd) möchte!
 
-Die Termine unserer nächsten Treffen findest Du auf [dieser Seite](mitmachen.qmd)!
+<!-- Die Termine unserer nächsten Treffen findest Du auf [dieser Seite](mitmachen.qmd)! -->
 
 ## News
