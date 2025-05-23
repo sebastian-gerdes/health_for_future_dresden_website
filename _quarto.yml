@@ -45,7 +45,7 @@ website:
             file: arbeitsgruppen/lehre.qmd
           - text: "Hygienemuseum"
             file: arbeitsgruppen/hygienemuseum.qmd
-          - text: "Hitzschutz"
+          - text: "Hitzeschutz"
             file: arbeitsgruppen/hitzeschutz.qmd
       - links.qmd
     right:
