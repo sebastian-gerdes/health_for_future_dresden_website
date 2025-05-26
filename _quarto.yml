@@ -41,8 +41,8 @@ website:
             file: arbeitsgruppen/pressearbeit.qmd
           - text: "Ernährung"
             file: arbeitsgruppen/ernaehrung.qmd
-          - text: "Lehre"
-            file: arbeitsgruppen/lehre.qmd
+          - text: "Bildung"
+            file: arbeitsgruppen/bildung.qmd
           - text: "Hygienemuseum"
             file: arbeitsgruppen/hygienemuseum.qmd
           - text: "Hitzeschutz"
