@@ -7,6 +7,3 @@ title: "Impressum"
   * Sebastian Gerdes (Privatperson) als Mitglied von Health for Future Dresden (H4F Dresden) 
     * Adresse: Talstraße 7, 01099 Dresden
     * E-Mail: sebastian.gerdes(at)posteo(punkt)de
-
-## Quellcode der Webseite
-* Der Quellcode der Webseite befindet sich [hier](https://github.com/sebastian-gerdes/health_for_future_dresden_website) in einem öffentlichen Repository bei [GitHub](https://github.com/). Kontaktiere mich (Sebastian Gerdes) gern unter sebastian.gerdes(at)posteo(punkt)de, falls Du etwas vom Quellcode verwenden möchtest, das sollte kein Problem sein!
