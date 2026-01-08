@@ -2,7 +2,7 @@
 title: "Impressum"
 ---
 
-## Angaben gemäß § 5 [Digitale-Dienste-Gesetzt](https://www.gesetze-im-internet.de/ddg/__5.html)
+## Angaben gemäß § 5 [Digitale-Dienste-Gesetz](https://www.gesetze-im-internet.de/ddg/__5.html)
 * Betreiber dieser Webseite:
   * Sebastian Gerdes (Privatperson) als Mitglied von Health for Future Dresden (H4F Dresden) 
     * Adresse: Talstraße 7, 01099 Dresden
