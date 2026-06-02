@@ -1,0 +1,10 @@
+---
+title: "Hitzeaktionstag am 11.06.2026"
+date: "2026-06-02"
+---
+
+![](hitzeaktionstag.png)
+
+<!-- ![](1920_1005.png){width='80%'} -->
+
+<!-- ![](info.png){width='80%'} -->
