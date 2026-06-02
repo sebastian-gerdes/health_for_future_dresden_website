@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>News</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -35,15 +38,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5d7346e1f2441bc0d69159492cbf8288.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -120,8 +124,8 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -134,7 +138,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -158,7 +162,7 @@ window.Quarto = {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -166,11 +170,12 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo_wide.png" alt="" class="navbar-logo">
+    <img src="./images/logo_wide.png" alt="" class="navbar-logo light-content">
+    <img src="./images/logo_wide.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Suchen"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -192,7 +197,7 @@ window.Quarto = {
 <span class="menu-text">Vorträge</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-arbeitsgruppen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-arbeitsgruppen" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Arbeitsgruppen</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-arbeitsgruppen">    
@@ -251,7 +256,7 @@ window.Quarto = {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -290,21 +295,18 @@ window.Quarto = {
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-listing-date-sort="1774220400000" data-listing-file-modified-sort="1774296674368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/2026-03-23-klimademo/index.html" class="no-external"></a></p><a href="./posts/2026-03-23-klimademo/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2026-03-23-klimademo/1920_1005.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2026-03-23-klimademo/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2026-03-23-klimademo/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2026-03-23-klimademo/1920_1005.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2026-03-23-klimademo/index.html" class="no-external">Klimademo am 26.03.2026!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2026-03-23-klimademo/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2026-03-23-klimademo/index.html" class="no-external"></a>
-</div>
+<div class="delink listing-description"><a href="./posts/2026-03-23-klimademo/index.html" class="no-external">
+
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2026-03-23-klimademo/index.html" class="no-external">
@@ -315,21 +317,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="1" data-listing-date-sort="1772319600000" data-listing-file-modified-sort="1772372627366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
-<div class="thumbnail">
-<p><a href="./posts/2026-03-01-planetary-health-trifft-physiotherapie/index.html" class="no-external"></a></p><a href="./posts/2026-03-01-planetary-health-trifft-physiotherapie/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2026-03-01-planetary-health-trifft-physiotherapie/01.jpeg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2026-03-01-planetary-health-trifft-physiotherapie/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2026-03-01-planetary-health-trifft-physiotherapie/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2026-03-01-planetary-health-trifft-physiotherapie/01.jpeg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2026-03-01-planetary-health-trifft-physiotherapie/index.html" class="no-external">Planetary Health trifft Physiotherapie</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2026-03-01-planetary-health-trifft-physiotherapie/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2026-03-01-planetary-health-trifft-physiotherapie/index.html" class="no-external">An der Carus Akademie am Uniklinikum Dresden haben angehende Physiotherapeut:innen im Rahmen einer interprofessionellen Projektwoche im Februar 2026 das Thema Planetary…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2026-03-01-planetary-health-trifft-physiotherapie/index.html" class="no-external">
+An der Carus Akademie am Uniklinikum Dresden haben angehende Physiotherapeut:innen im Rahmen einer interprofessionellen Projektwoche im Februar 2026 das Thema Planetary…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2026-03-01-planetary-health-trifft-physiotherapie/index.html" class="no-external">
@@ -340,21 +339,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="2" data-listing-date-sort="1763074800000" data-listing-file-modified-sort="1763289346804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/2025-10-03-klimastreik-gleich-weiter/index.html" class="no-external"></a></p><a href="./posts/2025-10-03-klimastreik-gleich-weiter/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2025-10-03-klimastreik-gleich-weiter/klimastreik_1.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2025-10-03-klimastreik-gleich-weiter/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2025-10-03-klimastreik-gleich-weiter/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2025-10-03-klimastreik-gleich-weiter/klimastreik_1.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-10-03-klimastreik-gleich-weiter/index.html" class="no-external">Klimastreik am 14.11.2025</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-10-03-klimastreik-gleich-weiter/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-10-03-klimastreik-gleich-weiter/index.html" class="no-external">  </a>
-</div>
+<div class="delink listing-description"><a href="./posts/2025-10-03-klimastreik-gleich-weiter/index.html" class="no-external">
+  
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2025-10-03-klimastreik-gleich-weiter/index.html" class="no-external">
@@ -365,21 +361,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="3" data-listing-date-sort="1757973600000" data-listing-file-modified-sort="1758014859260" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="572">
-<div class="thumbnail">
-<p><a href="./posts/2025-09-16-klimastreik/index.html" class="no-external"></a></p><a href="./posts/2025-09-16-klimastreik/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2025-09-16-klimastreik/share_pic_1.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2025-09-16-klimastreik/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2025-09-16-klimastreik/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2025-09-16-klimastreik/share_pic_1.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-09-16-klimastreik/index.html" class="no-external">Klimastreik am 20.9.2025 - sei dabei!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-09-16-klimastreik/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-09-16-klimastreik/index.html" class="no-external">Am Samstag, 20.09., 13 Uhr, Schlossplatz findet die nächste Klimademo in Dresden statt, als Teil weltweiter Proteste an diesem Wochenende. Wir möchten zur Unterstützung der…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2025-09-16-klimastreik/index.html" class="no-external">
+Am Samstag, 20.09., 13 Uhr, Schlossplatz findet die nächste Klimademo in Dresden statt, als Teil weltweiter Proteste an diesem Wochenende. Wir möchten zur Unterstützung der…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2025-09-16-klimastreik/index.html" class="no-external">
@@ -390,21 +383,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="4" data-listing-date-sort="1747951200000" data-listing-file-modified-sort="1748025700695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
-<div class="thumbnail">
-<p><a href="./posts/2025-05-23-hitzeaktionstag/index.html" class="no-external"></a></p><a href="./posts/2025-05-23-hitzeaktionstag/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2025-05-23-hitzeaktionstag/HAT-2025.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2025-05-23-hitzeaktionstag/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2025-05-23-hitzeaktionstag/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2025-05-23-hitzeaktionstag/HAT-2025.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-05-23-hitzeaktionstag/index.html" class="no-external">Hitzeaktionstag!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-05-23-hitzeaktionstag/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-05-23-hitzeaktionstag/index.html" class="no-external">Am diesjährigen Hitzeaktionstag am 04.06.2025 sind wir wieder mit dabei – und das gleich mit zwei Veranstaltungen, die wir mit gestalten dürfen!</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2025-05-23-hitzeaktionstag/index.html" class="no-external">
+Am diesjährigen Hitzeaktionstag am 04.06.2025 sind wir wieder mit dabei – und das gleich mit zwei Veranstaltungen, die wir mit gestalten dürfen!
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2025-05-23-hitzeaktionstag/index.html" class="no-external">
@@ -415,21 +405,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="5" data-listing-date-sort="1743631200000" data-listing-file-modified-sort="1743666090286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
-<div class="thumbnail">
-<p><a href="./posts/2025-04-03-klimabuchmesse/index.html" class="no-external"></a></p><a href="./posts/2025-04-03-klimabuchmesse/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2025-04-03-klimabuchmesse/klimabuchmesse-800x814.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2025-04-03-klimabuchmesse/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2025-04-03-klimabuchmesse/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2025-04-03-klimabuchmesse/klimabuchmesse-800x814.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-04-03-klimabuchmesse/index.html" class="no-external">Bericht zur Vorstellung des Buches „Die grüne Arztpraxis“ auf der Klimabuchmesse in Leipzig</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-04-03-klimabuchmesse/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-04-03-klimabuchmesse/index.html" class="no-external">Auf der Klimabuchmesse in Leipzig wurde Die grüne Arztpraxis vorgestellt. Unter der Moderation von Sigmar Stelzner präsentierte Herausgeberin Gudula Keller das Konzept des…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2025-04-03-klimabuchmesse/index.html" class="no-external">
+Auf der Klimabuchmesse in Leipzig wurde Die grüne Arztpraxis vorgestellt. Unter der Moderation von Sigmar Stelzner präsentierte Herausgeberin Gudula Keller das Konzept des…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2025-04-03-klimabuchmesse/index.html" class="no-external">
@@ -440,21 +427,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="6" data-listing-date-sort="1742857200000" data-listing-file-modified-sort="1742896301036" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
-<div class="thumbnail">
-<p><a href="./posts/2025-03-25-onboarding/index.html" class="no-external"></a></p><a href="./posts/2025-03-25-onboarding/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2025-03-25-onboarding/onboarding.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2025-03-25-onboarding/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2025-03-25-onboarding/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2025-03-25-onboarding/onboarding.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-03-25-onboarding/index.html" class="no-external">8. April 2025, 18 Uhr: Onboarding-Treffen</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-03-25-onboarding/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-03-25-onboarding/index.html" class="no-external">Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2025-03-25-onboarding/index.html" class="no-external">
+Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2025-03-25-onboarding/index.html" class="no-external">
@@ -465,21 +449,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="7" data-listing-date-sort="1741042800000" data-listing-file-modified-sort="1741119228777" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
-<div class="thumbnail">
-<p><a href="./posts/2025-03-04-klimabuchmesse/index.html" class="no-external"></a></p><a href="./posts/2025-03-04-klimabuchmesse/index.html" class="no-external">
-<p><img src="./images/logo.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2025-03-04-klimabuchmesse/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2025-03-04-klimabuchmesse/index.html" class="no-external">
+
+<img loading="lazy" src="./images/logo.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-03-04-klimabuchmesse/index.html" class="no-external">29.3.2025: Der Weg zur zukunftsfähigen Arzpraxis – Health for Future Dresden auf der Klimabuchmesse Leipzig</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-03-04-klimabuchmesse/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-03-04-klimabuchmesse/index.html" class="no-external">Am 29.3.2025 veranstalten Health for Future Dresden und Leipzig gemeinsam eine Veranstaltung im Rahmen der Klimabuchmesse Leipzig:</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2025-03-04-klimabuchmesse/index.html" class="no-external">
+Am 29.3.2025 veranstalten Health for Future Dresden und Leipzig gemeinsam eine Veranstaltung im Rahmen der Klimabuchmesse Leipzig:
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2025-03-04-klimabuchmesse/index.html" class="no-external">
@@ -490,21 +471,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="8" data-listing-date-sort="1738191600000" data-listing-file-modified-sort="1738243337603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="187">
-<div class="thumbnail">
-<p><a href="./posts/2025-01-30-luft-eine-fuer-alle/index.html" class="no-external"></a></p><a href="./posts/2025-01-30-luft-eine-fuer-alle/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2025-01-30-luft-eine-fuer-alle/Un-Pollute_Zlatko-Cosic.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2025-01-30-luft-eine-fuer-alle/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2025-01-30-luft-eine-fuer-alle/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2025-01-30-luft-eine-fuer-alle/Un-Pollute_Zlatko-Cosic.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-01-30-luft-eine-fuer-alle/index.html" class="no-external">Health for Future Dresden bei „Luft. Eine für alle.“ – Zwei Veranstaltungen im Deutschen Hygienemuseum</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-01-30-luft-eine-fuer-alle/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-01-30-luft-eine-fuer-alle/index.html" class="no-external">Wie beeinflusst die Luft, die wir atmen, unsere Gesundheit? Welche Maßnahmen können Städte ergreifen, um die Luftqualität zu verbessern? Health for Future Dresden beteiligt…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2025-01-30-luft-eine-fuer-alle/index.html" class="no-external">
+Wie beeinflusst die Luft, die wir atmen, unsere Gesundheit? Welche Maßnahmen können Städte ergreifen, um die Luftqualität zu verbessern? Health for Future Dresden beteiligt…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2025-01-30-luft-eine-fuer-alle/index.html" class="no-external">
@@ -515,21 +493,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="9" data-listing-date-sort="1736982000000" data-listing-file-modified-sort="1737666390133" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="128">
-<div class="thumbnail">
-<p><a href="./posts/2025-01-16-klimastreik/index.html" class="no-external"></a></p><a href="./posts/2025-01-16-klimastreik/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2025-01-16-klimastreik/klimastreik_2025_02_07.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2025-01-16-klimastreik/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2025-01-16-klimastreik/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2025-01-16-klimastreik/klimastreik_2025_02_07.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2025-01-16-klimastreik/index.html" class="no-external">Klimastreik am 07.02. in Dresden!️</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-01-16-klimastreik/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-01-16-klimastreik/index.html" class="no-external">Zwei Wochen vor der Bundestagswahl gehen wir in Dresden für unser Recht auf Zukunft auf die Straßen! 🪧</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2025-01-16-klimastreik/index.html" class="no-external">
+Zwei Wochen vor der Bundestagswahl gehen wir in Dresden für unser Recht auf Zukunft auf die Straßen! 🪧
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2025-01-16-klimastreik/index.html" class="no-external">
@@ -540,21 +515,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="10" data-listing-date-sort="1734390000000" data-listing-file-modified-sort="1734425389117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
-<div class="thumbnail">
-<p><a href="./posts/2024-12-17-petition-dresden-klimaschutz/index.html" class="no-external"></a></p><a href="./posts/2024-12-17-petition-dresden-klimaschutz/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-12-17-petition-dresden-klimaschutz/Den-Klima-schutz-nicht-aufgeben-800x450.webp"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-12-17-petition-dresden-klimaschutz/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-12-17-petition-dresden-klimaschutz/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-12-17-petition-dresden-klimaschutz/Den-Klima-schutz-nicht-aufgeben-800x450.webp"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-12-17-petition-dresden-klimaschutz/index.html" class="no-external">Petition: Dresden darf den Klimaschutz nicht aufgeben!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-12-17-petition-dresden-klimaschutz/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-12-17-petition-dresden-klimaschutz/index.html" class="no-external">Dresden wendet sich vom Schutz des Klimas ab. Noch 2020 erklärte der Dresdner Stadtrat den Klimaschutz zur „städtischen Aufgabe von höchster Priorität für die…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-12-17-petition-dresden-klimaschutz/index.html" class="no-external">
+Dresden wendet sich vom Schutz des Klimas ab. Noch 2020 erklärte der Dresdner Stadtrat den Klimaschutz zur „städtischen Aufgabe von höchster Priorität für die…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-12-17-petition-dresden-klimaschutz/index.html" class="no-external">
@@ -565,21 +537,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="11" data-listing-date-sort="1731884400000" data-listing-file-modified-sort="1732025874801" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<div class="thumbnail">
-<p><a href="./posts/2024-11-18-h4f-hausaerztetag/index.html" class="no-external"></a></p><a href="./posts/2024-11-18-h4f-hausaerztetag/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-11-18-h4f-hausaerztetag/hausaerztetag_2.jpeg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-11-18-h4f-hausaerztetag/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-11-18-h4f-hausaerztetag/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-11-18-h4f-hausaerztetag/hausaerztetag_2.jpeg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-11-18-h4f-hausaerztetag/index.html" class="no-external">„Health for Future“ beim 31. Sächsischen Hausärztetag in Radebeul!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-11-18-h4f-hausaerztetag/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-11-18-h4f-hausaerztetag/index.html" class="no-external">Am 31. Sächsischen Hausärztetag in Radebeul waren wir mit einem Infostand vertreten und haben das wichtige Thema Klima und Gesundheit in den Fokus gerückt. Gemeinsam mit den…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-11-18-h4f-hausaerztetag/index.html" class="no-external">
+Am 31. Sächsischen Hausärztetag in Radebeul waren wir mit einem Infostand vertreten und haben das wichtige Thema Klima und Gesundheit in den Fokus gerückt. Gemeinsam mit den…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-11-18-h4f-hausaerztetag/index.html" class="no-external">
@@ -590,21 +559,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="12" data-listing-date-sort="1731711600000" data-listing-file-modified-sort="1731743497287" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
-<div class="thumbnail">
-<p><a href="./posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/index.html" class="no-external"></a></p><a href="./posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/Bild01.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/Bild01.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/index.html" class="no-external">Bundespetition für eine soziale und klimagerechte Verkehrswende</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/index.html" class="no-external">Klicke hier um direkt zur Petition zu kommen</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/index.html" class="no-external">
+Klicke hier um direkt zur Petition zu kommen
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-11-16-bundespetition-fuer-eine-soziale-und-klimagerechte-verkehrswende/index.html" class="no-external">
@@ -615,25 +581,22 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="13" data-listing-date-sort="1728943200000" data-listing-file-modified-sort="1729017953243" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/index.html" class="no-external"></a></p><a href="./posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/Programm_Fachtag-_Klima_1.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/Programm_Fachtag-_Klima_1.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/index.html" class="no-external">2./3.11.2024: Fachtagung Frauengesundheit und Klimawandel im Hygienemuseum</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/index.html" class="no-external">
+<div class="delink listing-description"><a href="./posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/index.html" class="no-external">
+
 <figure class="figure">
 <p></p>
 </figure>
-</a>
-</div>
+
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-10-15-fachtag-frauengesundheit-und-klimawandel/index.html" class="no-external">
@@ -644,21 +607,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="14" data-listing-date-sort="1724104800000" data-listing-file-modified-sort="1730456948076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
-<div class="thumbnail">
-<p><a href="./posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/index.html" class="no-external"></a></p><a href="./posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/brandmauer.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/brandmauer.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/index.html" class="no-external">25.8.2024: Demo für Demokratie und gegen Rechtsextremismus</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/index.html" class="no-external">Mehr auf Infos auf der Seite von “Wir sind die Brandmauer Dresden”!</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/index.html" class="no-external">
+Mehr auf Infos auf der Seite von “Wir sind die Brandmauer Dresden”!
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-08-20-demo-fuer-demokratie-gegen-rechtsextremismus/index.html" class="no-external">
@@ -669,21 +629,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="15" data-listing-date-sort="1723500000000" data-listing-file-modified-sort="1723534871350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="thumbnail">
-<p><a href="./posts/2024-08-13-klimastreik/index.html" class="no-external"></a></p><a href="./posts/2024-08-13-klimastreik/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-08-13-klimastreik/klimastreik.webp"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-08-13-klimastreik/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-08-13-klimastreik/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-08-13-klimastreik/klimastreik.webp"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-08-13-klimastreik/index.html" class="no-external">Klimastreik am 20.9.2024</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-08-13-klimastreik/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-08-13-klimastreik/index.html" class="no-external">Am 20. September findet der nächste Klimastreik statt - sei dabei!</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-08-13-klimastreik/index.html" class="no-external">
+Am 20. September findet der nächste Klimastreik statt - sei dabei!
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-08-13-klimastreik/index.html" class="no-external">
@@ -694,21 +651,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="16" data-listing-date-sort="1719784800000" data-listing-file-modified-sort="1719903809856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
-<div class="thumbnail">
-<p><a href="./posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/index.html" class="no-external"></a></p><a href="./posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/gyn_in_der_klimakrise.jpeg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/gyn_in_der_klimakrise.jpeg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/index.html" class="no-external">Gynäkologie in Zeiten der Klimakrise - Veranstaltungsbericht</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/index.html" class="no-external">Am 25.06.2024 fand am Uniklinikum Dresden die Veranstaltung <strong>„Gynäkologie in Zeiten der Klimakrise“</strong> in Kooperation mit der kritischen Medizin Dresden statt. 24 Teilnehmende…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/index.html" class="no-external">
+Am 25.06.2024 fand am Uniklinikum Dresden die Veranstaltung <strong>„Gynäkologie in Zeiten der Klimakrise“</strong> in Kooperation mit der kritischen Medizin Dresden statt. 24 Teilnehmende…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-07-01-gyn-in-der-klimakrise-veranstaltungsbericht/index.html" class="no-external">
@@ -719,21 +673,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="17" data-listing-date-sort="1719266400000" data-listing-file-modified-sort="1722516655464" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293">
-<div class="thumbnail">
-<p><a href="./posts/2024-06-26-wir-sind-die-brandmauer/index.html" class="no-external"></a></p><a href="./posts/2024-06-26-wir-sind-die-brandmauer/index.html" class="no-external">
-<p><img src="./posts/2024-06-26-wir-sind-die-brandmauer/wir_sind_die_brandmauer.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024-06-26-wir-sind-die-brandmauer/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-06-26-wir-sind-die-brandmauer/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2024-06-26-wir-sind-die-brandmauer/wir_sind_die_brandmauer.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-06-26-wir-sind-die-brandmauer/index.html" class="no-external">Wir sind die Brandmauer</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-06-26-wir-sind-die-brandmauer/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-06-26-wir-sind-die-brandmauer/index.html" class="no-external">Anlässlich der anstehenden Landtagswahl in Sachsen und Thüringen am 1.9.2024 und Brandenburg am 22.9.2024 möchten wir von Health for Future Dresden betonen, wie wichtig der…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-06-26-wir-sind-die-brandmauer/index.html" class="no-external">
+Anlässlich der anstehenden Landtagswahl in Sachsen und Thüringen am 1.9.2024 und Brandenburg am 22.9.2024 möchten wir von Health for Future Dresden betonen, wie wichtig der…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-06-26-wir-sind-die-brandmauer/index.html" class="no-external">
@@ -744,23 +695,27 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="18" data-listing-date-sort="1718661600000" data-listing-file-modified-sort="1718692401365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/index.html" class="no-external"></a></p><a href="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/index.html" class="no-external">
-<p><img src="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/gyn_in_zeiten_der_klimakrise.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/gyn_in_zeiten_der_klimakrise.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/index.html" class="no-external">Gynäkologie in Zeiten der Klimakrise</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/index.html" class="no-external">
+<div class="delink listing-description"><a href="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/index.html" class="no-external">
 
-</a>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p></p>
 </div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p></p>
+</div>
+</div>
+
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-06-18-gyn-in-zeiten-der-klimakrise/index.html" class="no-external">
@@ -771,21 +726,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="19" data-listing-date-sort="1717970400000" data-listing-file-modified-sort="1748286925978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="311">
-<div class="thumbnail">
-<p><a href="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/index.html" class="no-external"></a></p><a href="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/index.html" class="no-external">
-<p><img src="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/photo_2024-06-10_12-19-31.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/photo_2024-06-10_12-19-31.jpg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/index.html" class="no-external">Reges Interesse beim Stand zum Hitzeaktionstag</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/index.html" class="no-external">Auch wenn es die kühleren Temperaturen am 5. 6. kurz vergessen ließen: Deutschland stehen bedingt durch den Klimawandel in den kommenden Jahren viele heiße Tage und…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/index.html" class="no-external">
+Auch wenn es die kühleren Temperaturen am 5. 6. kurz vergessen ließen: Deutschland stehen bedingt durch den Klimawandel in den kommenden Jahren viele heiße Tage und…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-06-10-reges-interesse-zum-stand-beim-hitzeaktionstag/index.html" class="no-external">
@@ -796,21 +748,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="20" data-listing-date-sort="1715896800000" data-listing-file-modified-sort="1716287350746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<div class="thumbnail">
-<p><a href="./posts/2024-05-17-klimastreik/index.html" class="no-external"></a></p><a href="./posts/2024-05-17-klimastreik/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-05-17-klimastreik/2024-05-31-savethedate-768x768.webp"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-05-17-klimastreik/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-05-17-klimastreik/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-05-17-klimastreik/2024-05-31-savethedate-768x768.webp"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-05-17-klimastreik/index.html" class="no-external">Klimastreik am 31.5.2024 zur Europa- und Kommunalwahl</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-05-17-klimastreik/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-05-17-klimastreik/index.html" class="no-external">Noch vor der Europawahl wird ein bundesweiter Klimastreik stattfinden! Sei dabei, um Dich für mehr Klimaschutzmaßnahmen einzusetzen!</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-05-17-klimastreik/index.html" class="no-external">
+Noch vor der Europawahl wird ein bundesweiter Klimastreik stattfinden! Sei dabei, um Dich für mehr Klimaschutzmaßnahmen einzusetzen!
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-05-17-klimastreik/index.html" class="no-external">
@@ -821,21 +770,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="21" data-listing-date-sort="1713218400000" data-listing-file-modified-sort="1716454864389" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
-<div class="thumbnail">
-<p><a href="./posts/2024-04-16-hitzeaktionstag/index.html" class="no-external"></a></p><a href="./posts/2024-04-16-hitzeaktionstag/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-04-16-hitzeaktionstag/hitzeaktionstag.jpeg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-04-16-hitzeaktionstag/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-04-16-hitzeaktionstag/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-04-16-hitzeaktionstag/hitzeaktionstag.jpeg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-04-16-hitzeaktionstag/index.html" class="no-external">5.6.2024: Hitzeaktionstag - seid dabei!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-04-16-hitzeaktionstag/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-04-16-hitzeaktionstag/index.html" class="no-external">Seid dabei beim Hitzeaktionstag am 5.6. am Dr.-Külz-Ring!</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-04-16-hitzeaktionstag/index.html" class="no-external">
+Seid dabei beim Hitzeaktionstag am 5.6. am Dr.-Külz-Ring!
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-04-16-hitzeaktionstag/index.html" class="no-external">
@@ -846,21 +792,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="22" data-listing-date-sort="1710543600000" data-listing-file-modified-sort="1710587950691" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="thumbnail">
-<p><a href="./posts/2024-03-16-einladung-zum-onboarding/index.html" class="no-external"></a></p><a href="./posts/2024-03-16-einladung-zum-onboarding/index.html" class="no-external">
-<p class="card-img-top"><img src="posts/2024-03-16-einladung-zum-onboarding/onboarding.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2024-03-16-einladung-zum-onboarding/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-03-16-einladung-zum-onboarding/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' src="posts/2024-03-16-einladung-zum-onboarding/onboarding.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-03-16-einladung-zum-onboarding/index.html" class="no-external">26.3.2024: Onboarding-Treffen</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-03-16-einladung-zum-onboarding/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-03-16-einladung-zum-onboarding/index.html" class="no-external">Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-03-16-einladung-zum-onboarding/index.html" class="no-external">
+Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-03-16-einladung-zum-onboarding/index.html" class="no-external">
@@ -871,21 +814,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="23" data-listing-date-sort="1710198000000" data-listing-file-modified-sort="1710250309034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
-<div class="thumbnail">
-<p><a href="./posts/2024-03-12-wie-beeinflusst-der-klimawandel-unsere-gesundheit/index.html" class="no-external"></a></p><a href="./posts/2024-03-12-wie-beeinflusst-der-klimawandel-unsere-gesundheit/index.html" class="no-external">
-<p><img src="./images/logo.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024-03-12-wie-beeinflusst-der-klimawandel-unsere-gesundheit/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-03-12-wie-beeinflusst-der-klimawandel-unsere-gesundheit/index.html" class="no-external">
+
+<img loading="lazy" src="./images/logo.png" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-03-12-wie-beeinflusst-der-klimawandel-unsere-gesundheit/index.html" class="no-external">Vortrag: „Wie beeinflusst der Klimawandel unsere Gesundheit?“</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-03-12-wie-beeinflusst-der-klimawandel-unsere-gesundheit/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-03-12-wie-beeinflusst-der-klimawandel-unsere-gesundheit/index.html" class="no-external">Am 19.4.2024 ist der Tag des Gesundheitsamtes der Stadt Dresden mit einem interessanten Programm. Insbesondere möchten wir auf den Vortrag „Wie beeinflusst der Klimawandel…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-03-12-wie-beeinflusst-der-klimawandel-unsere-gesundheit/index.html" class="no-external">
+Am 19.4.2024 ist der Tag des Gesundheitsamtes der Stadt Dresden mit einem interessanten Programm. Insbesondere möchten wir auf den Vortrag „Wie beeinflusst der Klimawandel…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-03-12-wie-beeinflusst-der-klimawandel-unsere-gesundheit/index.html" class="no-external">
@@ -896,21 +836,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="24" data-listing-date-sort="1708988400000" data-listing-file-modified-sort="1709038188233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-<div class="thumbnail">
-<p><a href="./posts/2024-02-27-klimastreik/index.html" class="no-external"></a></p><a href="./posts/2024-02-27-klimastreik/index.html" class="no-external">
-<p><img src="./posts/2024-02-27-klimastreik/klimastreik_fff.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2024-02-27-klimastreik/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2024-02-27-klimastreik/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2024-02-27-klimastreik/klimastreik_fff.jpg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2024-02-27-klimastreik/index.html" class="no-external">Klimastreik am 1.3.2024!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2024-02-27-klimastreik/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2024-02-27-klimastreik/index.html" class="no-external">An diesem Freitag, dem 1. März 2024 ist wieder bundesweiter Klimastreik!</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2024-02-27-klimastreik/index.html" class="no-external">
+An diesem Freitag, dem 1. März 2024 ist wieder bundesweiter Klimastreik!
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2024-02-27-klimastreik/index.html" class="no-external">
@@ -921,21 +858,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="25" data-listing-date-sort="1703890800000" data-listing-file-modified-sort="1704400866425" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="392">
-<div class="thumbnail">
-<p><a href="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/index.html" class="no-external"></a></p><a href="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/index.html" class="no-external">
-<p><img data-src="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/New_Year_Berlin.webp" class="thumbnail-image"></p>
-</a><p><a href="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/index.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/New_Year_Berlin.webp" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/index.html" class="no-external">Herzlichen Dank für ein erfolgreiches Jahr 2023: Gemeinsam für Klima und Gesundheit!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/index.html" class="no-external">Das Jahr 2023 neigt sich dem Ende zu, und wir möchten die Gelegenheit nutzen, uns von Herzen für euren Einsatz für Klima und Gesundheit zu bedanken. Eure Arbeit haben unser…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/index.html" class="no-external">
+Das Jahr 2023 neigt sich dem Ende zu, und wir möchten die Gelegenheit nutzen, uns von Herzen für euren Einsatz für Klima und Gesundheit zu bedanken. Eure Arbeit haben unser…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-12-30-herzlichen-dank-gemeinsam-fuer-klima-und-gesundheit/index.html" class="no-external">
@@ -946,21 +880,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="26" data-listing-date-sort="1697407200000" data-listing-file-modified-sort="1703966569091" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
-<div class="thumbnail">
-<p><a href="./posts/2023-10-16-planetary-health-diet-berufsakademie/index.html" class="no-external"></a></p><a href="./posts/2023-10-16-planetary-health-diet-berufsakademie/index.html" class="no-external">
-<p><img data-src="./posts/2023-10-16-planetary-health-diet-berufsakademie/planetary_health_diet.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/2023-10-16-planetary-health-diet-berufsakademie/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-10-16-planetary-health-diet-berufsakademie/index.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/2023-10-16-planetary-health-diet-berufsakademie/planetary_health_diet.jpg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-10-16-planetary-health-diet-berufsakademie/index.html" class="no-external">9.11.2023: Vorträge zu ‘Planetary Health Diet’ in der Berufsakademie</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-10-16-planetary-health-diet-berufsakademie/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-10-16-planetary-health-diet-berufsakademie/index.html" class="no-external">Gern möchten wir auf eine vielversprechende Vortragsveranstaltung der Berufsakademie Dresden aufmerksam machen!</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-10-16-planetary-health-diet-berufsakademie/index.html" class="no-external">
+Gern möchten wir auf eine vielversprechende Vortragsveranstaltung der Berufsakademie Dresden aufmerksam machen!
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-10-16-planetary-health-diet-berufsakademie/index.html" class="no-external">
@@ -971,21 +902,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="27" data-listing-date-sort="1695765600000" data-listing-file-modified-sort="1695758162791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="thumbnail">
-<p><a href="./posts/2023-09-27-einladung-zum-onboarding/index.html" class="no-external"></a></p><a href="./posts/2023-09-27-einladung-zum-onboarding/index.html" class="no-external">
-<p class="card-img-top"><img data-src="posts/2023-09-27-einladung-zum-onboarding/onboarding.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2023-09-27-einladung-zum-onboarding/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-09-27-einladung-zum-onboarding/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' data-src="posts/2023-09-27-einladung-zum-onboarding/onboarding.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-09-27-einladung-zum-onboarding/index.html" class="no-external">10.10.2023: Onboarding-Treffen</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-09-27-einladung-zum-onboarding/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-09-27-einladung-zum-onboarding/index.html" class="no-external">Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-09-27-einladung-zum-onboarding/index.html" class="no-external">
+Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-09-27-einladung-zum-onboarding/index.html" class="no-external">
@@ -996,21 +924,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="28" data-listing-date-sort="1694901600000" data-listing-file-modified-sort="1709630166249" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="430">
-<div class="thumbnail">
-<p><a href="./posts/2023-09-17-macht-hitze-krank-nachlese/index.html" class="no-external"></a></p><a href="./posts/2023-09-17-macht-hitze-krank-nachlese/index.html" class="no-external">
-<p class="card-img-top"><img data-src="posts/2023-09-17-macht-hitze-krank-nachlese/images/photo_2023-09-15_06-22-54.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2023-09-17-macht-hitze-krank-nachlese/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-09-17-macht-hitze-krank-nachlese/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' data-src="posts/2023-09-17-macht-hitze-krank-nachlese/images/photo_2023-09-15_06-22-54.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-09-17-macht-hitze-krank-nachlese/index.html" class="no-external">Macht Hitze krank? Nachlese zum Podiumsgespräch im Hygienemuseum</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-09-17-macht-hitze-krank-nachlese/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-09-17-macht-hitze-krank-nachlese/index.html" class="no-external"> <!-- ![](images/macht_hitze_krank-symposium.jpeg){width='100%' fig-align='center'} --></a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-09-17-macht-hitze-krank-nachlese/index.html" class="no-external">
+ <!-- ![](images/macht_hitze_krank-symposium.jpeg){width='100%' fig-align='center'} -->
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-09-17-macht-hitze-krank-nachlese/index.html" class="no-external">
@@ -1021,21 +946,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="29" data-listing-date-sort="1691618400000" data-listing-file-modified-sort="1694326083314" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-<div class="thumbnail">
-<p><a href="./posts/2023-08-10-globaler-klimastreik/index.html" class="no-external"></a></p><a href="./posts/2023-08-10-globaler-klimastreik/index.html" class="no-external">
-<p class="card-img-top"><img data-src="posts/2023-08-10-globaler-klimastreik/images/photo_2023-09-10_08-05-38.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2023-08-10-globaler-klimastreik/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-08-10-globaler-klimastreik/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' data-src="posts/2023-08-10-globaler-klimastreik/images/photo_2023-09-10_08-05-38.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-08-10-globaler-klimastreik/index.html" class="no-external">15.9.2023: Globaler Klimastreik auf dem Postplatz!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-08-10-globaler-klimastreik/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-08-10-globaler-klimastreik/index.html" class="no-external">Am 15. September ist wieder Globaler Klimastreik und wir gehen im ganzen Land und auf der ganzen Welt auf die Straße, um für weltweite Klimagerechtigkeit zu kämpfen!</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-08-10-globaler-klimastreik/index.html" class="no-external">
+Am 15. September ist wieder Globaler Klimastreik und wir gehen im ganzen Land und auf der ganzen Welt auf die Straße, um für weltweite Klimagerechtigkeit zu kämpfen!
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-08-10-globaler-klimastreik/index.html" class="no-external">
@@ -1046,21 +968,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="30" data-listing-date-sort="1689544800000" data-listing-file-modified-sort="1689585039374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
-<div class="thumbnail">
-<p><a href="./posts/2023-07-17-solarfest-dresden/index.html" class="no-external"></a></p><a href="./posts/2023-07-17-solarfest-dresden/index.html" class="no-external">
-<p class="card-img-top"><img data-src="posts/2023-07-17-solarfest-dresden/ensemble_incroyable_small.jpeg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2023-07-17-solarfest-dresden/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-07-17-solarfest-dresden/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' data-src="posts/2023-07-17-solarfest-dresden/ensemble_incroyable_small.jpeg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-07-17-solarfest-dresden/index.html" class="no-external">Solarfest Dresden am 22.7.2023!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-07-17-solarfest-dresden/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-07-17-solarfest-dresden/index.html" class="no-external">Um dem Klimawandel entgegenzuwirken braucht es eine Energiewende!</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-07-17-solarfest-dresden/index.html" class="no-external">
+Um dem Klimawandel entgegenzuwirken braucht es eine Energiewende!
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-07-17-solarfest-dresden/index.html" class="no-external">
@@ -1071,21 +990,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="31" data-listing-date-sort="1682978400000" data-listing-file-modified-sort="1683026605632" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
-<div class="thumbnail">
-<p><a href="./posts/2023-05-02-therapiemesse-leipzig/index.html" class="no-external"></a></p><a href="./posts/2023-05-02-therapiemesse-leipzig/index.html" class="no-external">
-<p class="card-img-top"><img data-src="posts/2023-05-02-therapiemesse-leipzig/images/photo_2023-04-30_15-21-51.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2023-05-02-therapiemesse-leipzig/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-05-02-therapiemesse-leipzig/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' data-src="posts/2023-05-02-therapiemesse-leipzig/images/photo_2023-04-30_15-21-51.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-05-02-therapiemesse-leipzig/index.html" class="no-external">Nachhaltigkeit auf der „therapie LEIPZIG“</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-05-02-therapiemesse-leipzig/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-05-02-therapiemesse-leipzig/index.html" class="no-external">Vom 4.-6.5. findet in Leipzig die Messe “therapie LEIPZIG” statt - hier mehr Informationen dazu.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-05-02-therapiemesse-leipzig/index.html" class="no-external">
+Vom 4.-6.5. findet in Leipzig die Messe “therapie LEIPZIG” statt - hier mehr Informationen dazu.
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-05-02-therapiemesse-leipzig/index.html" class="no-external">
@@ -1096,21 +1012,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="32" data-listing-date-sort="1681164000000" data-listing-file-modified-sort="1683623667215" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<div class="thumbnail">
-<p><a href="./posts/2023-04-11-stoppt-die-kohle-im-osten/index.html" class="no-external"></a></p><a href="./posts/2023-04-11-stoppt-die-kohle-im-osten/index.html" class="no-external">
-<p class="card-img-top"><img data-src="posts/2023-04-11-stoppt-die-kohle-im-osten/images/photo_2023-04-11_13-17-37.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2023-04-11-stoppt-die-kohle-im-osten/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-04-11-stoppt-die-kohle-im-osten/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' data-src="posts/2023-04-11-stoppt-die-kohle-im-osten/images/photo_2023-04-11_13-17-37.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-04-11-stoppt-die-kohle-im-osten/index.html" class="no-external">Stoppt die Kohle im Osten!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-04-11-stoppt-die-kohle-im-osten/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-04-11-stoppt-die-kohle-im-osten/index.html" class="no-external">Gemeinsam mit vielen weiteren Organisationen ruft Fridays for Future zu einer Demo am Tagebau Nochten auf: Für einen 1.5° kompatiblen #Kohleausstieg im Osten und…</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-04-11-stoppt-die-kohle-im-osten/index.html" class="no-external">
+Gemeinsam mit vielen weiteren Organisationen ruft Fridays for Future zu einer Demo am Tagebau Nochten auf: Für einen 1.5° kompatiblen #Kohleausstieg im Osten und…
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-04-11-stoppt-die-kohle-im-osten/index.html" class="no-external">
@@ -1121,21 +1034,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="33" data-listing-date-sort="1680213600000" data-listing-file-modified-sort="1681980027450" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail">
-<p><a href="./posts/2023-03-31-klima-demo/index.html" class="no-external"></a></p><a href="./posts/2023-03-31-klima-demo/index.html" class="no-external">
-<p class="card-img-top"><img data-src="posts/2023-03-31-klima-demo/images/photo_2023-04-05_18-45-37.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2023-03-31-klima-demo/index.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-03-31-klima-demo/index.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' data-src="posts/2023-03-31-klima-demo/images/photo_2023-04-05_18-45-37.jpg"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-03-31-klima-demo/index.html" class="no-external">Ampel schafft Klimaziele ab - wir demonstrieren!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-03-31-klima-demo/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-03-31-klima-demo/index.html" class="no-external"></a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-03-31-klima-demo/index.html" class="no-external">
+
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-03-31-klima-demo/index.html" class="no-external">
@@ -1146,20 +1056,17 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="34" data-listing-date-sort="1676674800000" data-listing-file-modified-sort="1680093579550" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html" class="no-external"></a></p><a href="./posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html" class="no-external">
-<p class="card-img-top"><img data-src="posts/2023-02-18-klimastreik/klimastreik.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' data-src="posts/2023-02-18-klimastreik/klimastreik.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html" class="no-external">Klimastreik am 3. März!</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html" class="no-external">
+<div class="delink listing-description"><a href="./posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html" class="no-external">
+
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1168,8 +1075,8 @@ window.Quarto = {
 </div>
 
 
-</a>
-</div>
+
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-02-18-klimastreik/2023_02_18-klimastreik.html" class="no-external">
@@ -1180,21 +1087,18 @@ window.Quarto = {
 </div>
 </div>
 <div class="quarto-post image-right" data-index="35" data-listing-date-sort="1676415600000" data-listing-file-modified-sort="1680093579551" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
-<div class="thumbnail">
-<p><a href="./posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html" class="no-external"></a></p><a href="./posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html" class="no-external">
-<p class="card-img-top"><img data-src="posts/2023-03-15-einladung-zum-onboarding/onboarding.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html" class="no-external"></a></p>
-</div>
+<div class="thumbnail"><a href="./posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html" class="no-external">
+
+<p class="card-img-top"><img loading='lazy' data-src="posts/2023-03-15-einladung-zum-onboarding/onboarding.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html" class="no-external">Einladung zum Onboarding</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html" class="no-external">Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:</a>
-</div>
+<div class="delink listing-description"><a href="./posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html" class="no-external">
+Für alle an einer Mitarbeit Interessierten gibt es ein Onboarding-Treffen:
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2023-03-15-einladung-zum-onboarding/2023_02_15-einladung-zum-onboarding.html" class="no-external">
@@ -1205,51 +1109,64 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">
-Keine Treffer
-</div>
+<div class="listing-no-matching d-none">Keine Treffer</div>
 <nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
@@ -1257,184 +1174,184 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
       return codeEl.innerText;
     }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Kopiert");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Kopiert");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/dresden\.healthforfuture\.de\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/dresden\.healthforfuture\.de\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -1442,185 +1359,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
