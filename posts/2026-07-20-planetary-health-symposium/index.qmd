@@ -1,6 +1,7 @@
 ---
 title: "Global Health Initiative Autumn Symposium"
 date: "2026-07-20"
+draft: true
 ---
 
 ![](symposium_planetary_health_01.png)
