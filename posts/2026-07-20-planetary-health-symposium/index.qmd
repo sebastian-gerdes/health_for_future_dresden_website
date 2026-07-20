@@ -1,0 +1,11 @@
+---
+title: "Global Health Initiative Autumn Symposium"
+date: "2026-07-20"
+---
+
+![](symposium_planetary_health_01.png)
+
+![](symposium_planetary_health_02.png)
+<!-- ![](1920_1005.png){width='80%'} -->
+
+<!-- ![](info.png){width='80%'} -->
